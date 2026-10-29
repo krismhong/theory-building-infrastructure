@@ -58,11 +58,11 @@
     },
     {
       "path": "evidence/README.md",
-      "sha256": "fb53d91396aef9ece34a1d52d0dff6f20334e823ae1e1684e8065d575ef9506f"
+      "sha256": "074af5a7ec68af0e57ac4bfa935a5fa88bc70bd0cb6e272a1484c1a11e3b80ad"
     },
     {
       "path": "evidence/SOURCE-REGISTER.json",
-      "sha256": "2588659e92971490951cc26ad81acd4e87c84745432cd3f2ae259881591c3b50"
+      "sha256": "de791f2373ed2d6106d40190cbbc97f025f283f224e4a78cddba9f8d313f6089"
     },
     {
       "path": "evidence/contamination-checks.json",
@@ -78,7 +78,7 @@
     },
     {
       "path": "evidence/reliability-checks-2026-10-21.json",
-      "sha256": "5479649818affc09abbd43956b8c8332982a204cb4fe9703997ac3e915a3b845"
+      "sha256": "04aa838869c0278f5a5c960fccb200740dc83f98af9dad3e9f02b0015183dddb"
     },
     {
       "path": "evidence/source-grounding-checks.json",

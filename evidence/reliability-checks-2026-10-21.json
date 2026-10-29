@@ -41,12 +41,15 @@
   "preserved_live_response_replay": {
     "performed": true,
     "new_inference": false,
-    "result": "Five original bundle hashes and merged decisions byte-identical"
+    "result": "Five original bundle hashes and merged decisions byte-identical",
+    "evidence_status": "Reported historical result; the underlying replay reports, receipts, and outputs are not included in this public package.",
+    "public_reproducibility": "This particular replay result cannot be independently reproduced or audited from the public release alone."
   },
   "limitations": [
     "One Windows symlink test skipped because privilege is unavailable",
     "Mocked adapters do not establish live endpoint compatibility",
-    "Structural validation and repeated old reports do not establish semantic accuracy"
+    "Structural validation and repeated old reports do not establish semantic accuracy",
+    "The preserved-response replay is reported historical evidence; its underlying reports, receipts, and outputs are not publicly provided in this package."
   ],
   "tested_python_files": {
     "runner/__init__.py": "01e16e54e0f895a4aa8bfc355448ebe1c256fe057a4e26e4df2aab841a3fa356",
