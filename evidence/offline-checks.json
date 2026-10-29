@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-19",
+  "candidate_version": "local-public-candidate-2026-10-19",
+  "ruleset": "core-v2.1-2026-10-10",
+  "python": "3.12.10",
+  "platform": "Windows",
+  "api_calls": 0,
+  "network_attempts_blocked": 0,
+  "semantic_validation_executed": false,
+  "test_harness_adjustment": "Process-local TemporaryDirectory(delete=False) retains synthetic outputs to avoid Windows cleanup locks; production code and privacy policy unchanged.",
+  "regression": {
+    "run": 49,
+    "passed": 49,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 1.161,
+    "test_files": [
+      "test_runner.py",
+      "test_provider_limits.py",
+      "test_run_directory.py",
+      "test_pilot_preparation.py",
+      "test_portability.py"
+    ]
+  },
+  "sync_storage_guard": "passed: synced project rejected",
+  "public_workflow": {
+    "status": "passed",
+    "mechanical": true,
+    "stub_reports": 5,
+    "independent_bundles_prepared": 5,
+    "pilot_requests_prepared": 5,
+    "agents_dispatched": 0,
+    "model_judgments": 0
+  },
+  "deferred": {
+    "file": "test_section_trial.py",
+    "tests": 48,
+    "reason": "The bounded helper requires dedicated local Temp outside sync; all new output remains in this synced project.",
+    "privacy_guard_unchanged": true,
+    "full_offline_smoke_run": false
+  },
+  "status": "passed_scoped_public_checks"
+}

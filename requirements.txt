@@ -1,0 +1,3 @@
+# Core: Python 3.10+ standard library only.
+# No packages, credentials, or API account are required for agent workflows/offline checks.
+# Optional Anthropic adapter only: install anthropic separately if explicitly selected.

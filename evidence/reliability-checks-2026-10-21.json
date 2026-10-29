@@ -1,0 +1,76 @@
+{
+  "checked_on": "2026-10-21",
+  "kind": "Offline engineering regression checks; no new inference",
+  "checked_at_utc": "2026-10-21T04:09:19.126778+00:00",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "status": "passed",
+  "unit_tests": {
+    "run": 116,
+    "passed": 115,
+    "failures": 0,
+    "errors": 0,
+    "skipped": [
+      {
+        "test": "test_replaced_artifact_symlink_is_rejected_before_reading_outside_temp (test_section_trial.TestSectionTrial.test_replaced_artifact_symlink_is_rejected_before_reading_outside_temp)",
+        "reason": "Windows symlink creation unavailable: WinError 1314 (required privilege missing)."
+      }
+    ],
+    "seconds": 21.448451
+  },
+  "new_reliability_tests": 19,
+  "provider_api_calls": 0,
+  "network_attempts_blocked": 0,
+  "semantic_validation_executed": false,
+  "workflow_checks": {
+    "stub_cli": "passed",
+    "regex_cli": "passed",
+    "independent_bundles": "passed",
+    "bounded_section_and_horizontal_contract": "passed"
+  },
+  "regressions": [
+    "missing and empty expected reports rejected",
+    "malformed reports and orphan/empty fields rejected",
+    "exact task/report/bundle completion receipts required",
+    "refusal, filtering, empty/nontext and unknown stop responses rejected",
+    "completed siblings and available failure usage retained",
+    "incomplete previous rounds cannot become clean rechecks",
+    "stale merged decisions and statuses invalidated with archives",
+    "transient atomic-write lock retry; persistent failure preserves old bytes"
+  ],
+  "preserved_live_response_replay": {
+    "performed": true,
+    "new_inference": false,
+    "result": "Five original bundle hashes and merged decisions byte-identical"
+  },
+  "limitations": [
+    "One Windows symlink test skipped because privilege is unavailable",
+    "Mocked adapters do not establish live endpoint compatibility",
+    "Structural validation and repeated old reports do not establish semantic accuracy"
+  ],
+  "tested_python_files": {
+    "runner/__init__.py": "01e16e54e0f895a4aa8bfc355448ebe1c256fe057a4e26e4df2aab841a3fa356",
+    "runner/__main__.py": "810fdec9f889593ae2ffcfb91eebf7447bdfab168f82b7397570cfb8ef48727e",
+    "runner/cascade.py": "fa1104122eaf7076fa0db322a7d65f9fb194fdbcdacd170de60f6224d49068c7",
+    "runner/draft.py": "0aae85e9c05fb64f20a44e2dd01ef89bcd36cda3abca83165a38d2613b16191d",
+    "runner/flags.py": "e2f69ab854fb288667ac9cdf2b20a7e0d14cbb3d4b276c5640ee4083c4c1c409",
+    "runner/mechanical.py": "2dab23396f0070d509135c6e71993a1900b70bda6cc5350e567edacac0f70f55",
+    "runner/organize.py": "bc8c3254a3345e1554748bd812f3256146c524fb1773245da681b3a975c8d05d",
+    "runner/prompts.py": "efaccd8fd09b94eeea83da75c99c50fbbee56f1ce2096da42d15a24832f096ef",
+    "runner/providers.py": "9e851942334a574eb687642aad61825ffc1c437ce4f9f9dffd6fcec1d1b6a351",
+    "runner/report_contract.py": "458da049deda6ccae48f496b5cef2a4e04f25923baaae8c819a8841b6bc45ac4",
+    "runner/revise.py": "782d71e5b5a76062cbff970b02e269dc56e3942b468fac38fc39e510a49f63b5",
+    "runner/section_trial.py": "506accc17864764b79fd2551032de21c7d0c3063ff59cf936ab3e1f7acd1cc89",
+    "runner/verification.py": "8b8f7278b5b7373cb740f39fe92a1c62d725b93c0c5ac361bb81c03ba26f935e",
+    "tests/test_pilot_preparation.py": "43a006e927ed3dacd6015d0ba0158fbc3f10aa564d7ccf419492802f1ae503ed",
+    "tests/test_portability.py": "ab2fe3d6ebf23e7772fa2b0bf20b10f20fb56fa9f13fc53f03d5d1608e5cf014",
+    "tests/test_provider_limits.py": "500efc029e955b07afb0c9732ba4e8858df359f2a1d6f22138dfbddf70a5407f",
+    "tests/test_reliability.py": "7af819b8b09f550cd8e85b5df83f96aa89f038c4abf1f276cb24cac956b08b67",
+    "tests/test_run_directory.py": "cb06fd45d08ddbd84c0d4f4f8af72c71aa62aa600a99a9a261ee23897b7a9dd6",
+    "tests/test_runner.py": "9ee1bed74990ce81df07a38ddd24abbbdb7cdc68fce6607dc34f8542b8da970f",
+    "tests/test_section_trial.py": "20cab5ca61478437163eecbb8abb54e97ddc242b12e20ef820cbcbd16da9d108",
+    "tools/offline_smoke.py": "9953e2f75f9a6802c3a6a780534b84df5e2bbcccefea0c1833f9afe9edd8ff3f",
+    "tools/prepare_pilot.py": "69f36d29bd9f1a40103dedba1ff5aeaa2ba13b456fa0b86381c9b68d07ab6d0d",
+    "tools/section_trial.py": "107a89c5b9dc8fbe7e2ba7feec708ee4fd8d9bd6e667a09d93abf6c66abab1c3"
+  }
+}

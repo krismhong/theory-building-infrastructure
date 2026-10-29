@@ -1,0 +1,2 @@
+# Preserve exact release bytes and manifest hashes across Git platforms.
+* -text

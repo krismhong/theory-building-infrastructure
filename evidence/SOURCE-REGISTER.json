@@ -1,0 +1,2915 @@
+{
+  "checked_on": "2026-10-20",
+  "counting_unit": "Underlying work; versions, editions used as a single work family, and reprints are not extra sources.",
+  "scope": "Source identities and bounded conceptual relationships. No source files, model training, semantic validation, or inherited algorithm performance.",
+  "counts": {
+    "unique_bibliographic_records": 122,
+    "raw_notes": 138,
+    "deduplicated_work_groups_before_exclusions": 127,
+    "excluded_work_groups": 5,
+    "provenance": {
+      "new supporting source": 79,
+      "historical credit": 40,
+      "documented attribution": 2,
+      "prior supporting source": 1
+    },
+    "read_scope": {
+      "selected text": 40,
+      "companion guidance": 2,
+      "abstract": 39,
+      "publisher overview": 8,
+      "public excerpt": 23,
+      "summary-mediated": 2,
+      "metadata": 8
+    }
+  },
+  "sources": [
+    {
+      "id": "R001",
+      "title": "Purpose and polarity of citation: Towards NLP-based bibliometrics",
+      "citation": "Abu-Jbara, A., Ezra, J., & Radev, D. (2013). Purpose and polarity of citation: Towards NLP-based bibliometrics. Proceedings of NAACL-HLT 2013, 596-606.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/N13-1067/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Cited-work discussion can extend beyond the sentence containing the reference, and its purpose and stance must be interpreted in context.",
+          "locator": "PDF p. 2, citation context includes surrounding sentences",
+          "relationship": "This cautions against mechanically limiting citation scope to one clause; it does not verify any individual source claim. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.1",
+            "5.3",
+            "5.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/N13-1067/"
+        }
+      ]
+    },
+    {
+      "id": "R002",
+      "title": "Reference scope identification in citing sentences",
+      "citation": "Abu-Jbara, A., & Radev, D. (2012). Reference scope identification in citing sentences. Proceedings of NAACL-HLT 2012, 80-90.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/N12-1009/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "A citation may apply to a particular span within a sentence; the attributed proposition should be localized before assessing whether a source supports it.",
+          "locator": "PDF p. 5, §4.2, scope of a given reference within a citing sentence",
+          "relationship": "A computational scope task cannot require every citation to cover only one clause or prove source fidelity. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.3",
+            "5.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/N12-1009/"
+        }
+      ]
+    },
+    {
+      "id": "R003",
+      "title": "Generating research questions through problematization",
+      "citation": "Alvesson, M., & Sandberg, J. (2011). Generating research questions through problematization. Academy of Management Review, 36(2), 247-271.",
+      "doi": "10.5465/amr.2009.0188",
+      "source_url": "https://doi.org/10.5465/amr.2009.0188",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Problematization is proposed as a way to identify and challenge assumptions in an existing literature when constructing research questions; the authors explicitly limit their method's scope.",
+          "locator": "printed pp. 247-248 (PDF pp. 1-2), abstract and introduction",
+          "relationship": "An optional theory-question method, not a universal requirement that every argument challenge a consensus assumption.",
+          "related_checks": [
+            "1.2",
+            "1.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2009.0188"
+        }
+      ]
+    },
+    {
+      "id": "R004",
+      "title": "Publication Manual of the American Psychological Association, Seventh Edition",
+      "citation": "American Psychological Association. (2020). Publication manual of the American Psychological Association (7th ed.). American Psychological Association.",
+      "doi": null,
+      "source_url": "https://www.apa.org/pubs/books/publication-manual-7th-edition-paperback",
+      "reading_scope": "companion guidance",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "APA says works cited in text should generally have reference entries and vice versa, with stated exceptions. That supports a bounded reference check, subject to the draft's citation system and parser coverage.",
+          "locator": "APA Style, Works included in a reference list, opening principle and exceptions; References page points to manual chapter 10",
+          "relationship": "['Exact manual section/page remains unresolved; online APA guidance is a distinct supporting source.', 'Exceptions include personal communications, general whole-site mentions, epigraphs, participant quotations, and some meta-analysis entries.']",
+          "related_checks": [
+            "5.8"
+          ],
+          "reading_scope": "companion guidance",
+          "content_url": "https://www.apa.org/pubs/books/publication-manual-7th-edition-paperback"
+        }
+      ]
+    },
+    {
+      "id": "R005",
+      "title": "Organizational theories: Some criteria for evaluation",
+      "citation": "Bacharach, S. B. (1989). Organizational theories: Some criteria for evaluation. Academy of Management Review, 14(4), 496-515.",
+      "doi": "10.5465/amr.1989.4308374",
+      "source_url": "https://journals.aom.org/doi/abs/10.5465/amr.1989.4308374",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The article proposes vocabulary and ground rules for discussion of organizational theory structure; it is related background for evaluating theory but not a direct source for the checker implementation.",
+          "locator": "AOM abstract, opening paragraph",
+          "relationship": "['Abstract only.']",
+          "related_checks": [
+            "1.0",
+            "1.5"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/abs/10.5465/amr.1989.4308374"
+        }
+      ]
+    },
+    {
+      "id": "R006",
+      "title": "Editor's comments: Positioning a theory paper for publication",
+      "citation": "Barney, J. B. (2018). Editor's comments: Positioning a theory paper for publication. Academy of Management Review, 43(3), 345-348.",
+      "doi": "10.5465/amr.2018.0112",
+      "source_url": "https://doi.org/10.5465/amr.2018.0112",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "For an AMR theory paper, the opening identifies a scholarly conversation and distills its unresolved theoretical issue instead of supplying a long undirected literature list.",
+          "locator": "printed pp. 345-346 (PDF pp. 1-2), introduction and 'The Rest of the First Paragraph'",
+          "relationship": "Outlet-specific positioning advice; a suggested paragraph pattern is not a general logic test.",
+          "related_checks": [
+            "1.1",
+            "2.1",
+            "2.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2018.0112"
+        }
+      ]
+    },
+    {
+      "id": "R007",
+      "title": "Modeling Local Coherence: An Entity-Based Approach",
+      "citation": "Barzilay, R., & Lapata, M. (2008). Modeling local coherence: An entity-based approach. Computational Linguistics, 34(1), 1-34.",
+      "doi": "10.1162/coli.2008.34.1.1",
+      "source_url": "https://aclanthology.org/J08-1001/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Patterns of entity recurrence and grammatical role provide a tractable account of one component of local coherence.",
+          "locator": "Abstract; entity transitions across sentences",
+          "relationship": "Entity-grid coherence measures do not establish logical support or contradictions. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "3.3",
+            "4.3",
+            "4.6"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/J08-1001/"
+        }
+      ]
+    },
+    {
+      "id": "R008",
+      "title": "The Craft of Research",
+      "citation": "Booth, W. C., Colomb, G. G., Williams, J. M., Bizup, J., & FitzGerald, W. T. (2024). The craft of research (5th ed.). University of Chicago Press.",
+      "doi": null,
+      "source_url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html",
+      "reading_scope": "publisher overview",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The book organizes argument work around claims, reasons, evidence, warrants, responses, paragraph revision, and fair representation of sources.",
+          "locator": "Publisher contents: chapters 5-9, 11-12; sections 6.3, 7.2, 7.4, 8.4, 11.5, 12.2-12.3.",
+          "relationship": "These are reading-route/topic matches from the contents, not passage-level support. The fifth edition is identified for current readers; the edition behind the historical three-author credit remains unknown. Editions count as one work.",
+          "related_checks": [
+            "1.4",
+            "1.6",
+            "3.1",
+            "4.4",
+            "5.1",
+            "5.2"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html"
+        }
+      ]
+    },
+    {
+      "id": "R009",
+      "title": "Why I Rejected Your Paper: Common Pitfalls in Writing Theory Papers and How to Avoid Them",
+      "citation": "Campbell, J. T.; Aguilera, R. V. (2022). Why I Rejected Your Paper: Common Pitfalls in Writing Theory Papers and How to Avoid Them. Academy of Management Review, 47(4), 521-527.",
+      "doi": "10.5465/amr.2022.0331",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2022.0331",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Editors identify thinly developed explanatory mechanisms as one common weakness in theory submissions. Relevant to asking for the inferential bridge behind a claimed relationship.",
+          "locator": "passage on unclear or underdeveloped explanatory mechanisms",
+          "relationship": "Editorial judgment is outlet guidance, not validation of automated flags or a universal mechanism requirement.",
+          "related_checks": [
+            "1.4",
+            "1.6",
+            "2.5",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2022.0331"
+        }
+      ]
+    },
+    {
+      "id": "R010",
+      "title": "Tackling the Complexity Challenge: When and How to Engage in Configurational and Hybrid Theorizing",
+      "citation": "Campbell, J. T., & Fiss, P. C. (2026). Tackling the complexity challenge: When and how to engage in configurational and hybrid theorizing. Academy of Management Review. Advance online publication.",
+      "doi": "10.5465/amr.2024.0187",
+      "source_url": "https://journals.aom.org/doi/abs/10.5465/amr.2024.0187",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The article treats causal complexity through conjunction, disjunction, asymmetry, and intentionality. It develops ways to combine configurational reasoning with propositions and processes, including temporal arrangements. Which components to foreground depends on the explanatory problem and whether aggregation would hide a mechanism.",
+          "locator": "Author-hosted 28-page journal proof, PDF p. 1/printed p. 1 abstract (four indications and two hybrid approaches); PDF p. 12/printed p. 12 on combinations, necessity and sufficiency; PDF p. 17/printed p. 17 on temporal-configurational layering; PDF p. 22/printed p. 22 on problem-dependent choice of explanation granularity (PDF index P21).",
+          "relationship": "The article concerns organizational theorizing and causal configurations, not text-unit siblings or checker validation. Applying its configurational concepts to conceptual parts and same-parent headings is an explicit project analogy. It does not prescribe a fixed sibling sequence, paragraph/sentence arrangement, or automated accuracy threshold. PDF is a journal proof on the author's site; final pagination should be checked against version of record before formal page citation.",
+          "related_checks": [
+            "1.7",
+            "2.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://static1.squarespace.com/static/602e9115cafb1a24216985bb/t/6965493b2177f361c8f3aeb9/1768245563726/Campbell%2B%26%2BFiss%2BAMR%2B2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R011",
+      "title": "The six dimensions of strong theory",
+      "citation": "Carton, A. M. (2025). The six dimensions of strong theory. Organization Science, 36(4), 1242-1270.",
+      "doi": "10.1287/orsc.2024.19018",
+      "source_url": "https://doi.org/10.1287/orsc.2024.19018",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The six proposed dimensions are importance, interestingness, actionability, generality, simplicity, and accuracy; improving one can trade off against another.",
+          "locator": "printed p. 1242 (PDF p. 2), abstract",
+          "relationship": "Evaluation of theory strength differs from the harness's restricted logic task; especially do not fold importance, novelty, or empirical accuracy into core flags.",
+          "related_checks": [
+            "1.1",
+            "1.6"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://doi.org/10.1287/orsc.2024.19018"
+        }
+      ]
+    },
+    {
+      "id": "R012",
+      "title": "Structural Scaffolds for Citation Intent Classification in Scientific Publications",
+      "citation": "Cohan, A., Ammar, W., van Zuylen, M., & Cady, F. (2019). Structural scaffolds for citation intent classification in scientific publications. Proceedings of NAACL-HLT 2019, 3586-3596.",
+      "doi": "10.18653/v1/n19-1361",
+      "source_url": "https://aclanthology.org/N19-1361/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Citation intent depends partly on surrounding scientific-discourse structure; attribution questions should be asked with nearby context.",
+          "locator": "Abstract; citation intent and scientific-document structure",
+          "relationship": "An intent classifier does not establish what a cited work actually says. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.1",
+            "5.3",
+            "5.4"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/N19-1361/"
+        }
+      ]
+    },
+    {
+      "id": "R013",
+      "title": "Line by Line: How to Edit Your Own Writing",
+      "citation": "Cook, C. K. (1985). Line by line: How to edit your own writing. Houghton Mifflin.",
+      "doi": null,
+      "source_url": "https://search.worldcat.org/title/Line-by-line-:-how-to-edit-your-own-writing/oclc/12080743",
+      "reading_scope": "summary-mediated",
+      "provenance": "documented attribution",
+      "concepts": [
+        {
+          "paraphrase": "Bookey's summary of Cook recommends clarifying the relationship between actions and their subjects, positioning modifiers to avoid unintended readings, and making pronoun referents identifiable. This offers indirect editorial background for asking who acts and resolving consequential clause ambiguity.",
+          "locator": "Bookey digest Line By Line PDF.pdf, summary chapters 3-4, PDF pp. 19-24 (extracted-text/Line By Line PDF_pages_0011-0020.txt and pages_0021-0030.txt), and summary chapter 12, PDF pp. 55-56 (pages_0051-0060.txt). These are digest PDF pages, not Cook's printed book pages.",
+          "relationship": "Attribute these points as Cook (1985) as summarized by Bookey, or cite the Bookey digest alongside the Cook bibliographic record. Do not imply direct inspection of Cook's original prose or use digest pages as book pages. The digest does not establish the harness's logical-materiality thresholds or a blanket ban on passive voice. A direct book passage remains unverified.",
+          "related_checks": [
+            "4.6",
+            "5.7"
+          ],
+          "reading_scope": "summary-mediated",
+          "content_url": "https://search.worldcat.org/title/Line-by-line-:-how-to-edit-your-own-writing/oclc/12080743"
+        }
+      ]
+    },
+    {
+      "id": "R014",
+      "title": "Building theory about theory building: What constitutes a theoretical contribution?",
+      "citation": "Corley, K. G., & Gioia, D. A. (2011). Building theory about theory building: What constitutes a theoretical contribution? Academy of Management Review, 36(1), 12-32.",
+      "doi": "10.5465/amr.2009.0486",
+      "source_url": "https://journals.aom.org/doi/abs/10.5465/amr.2009.0486",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The authors analyze theoretical contribution in terms of originality and utility. This supplies related context, but does not specify the project's checker criterion.",
+          "locator": "AOM publisher abstract, opening statement",
+          "relationship": "['No exact rule endorsement established.']",
+          "related_checks": [
+            "1.0"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/abs/10.5465/amr.2009.0486"
+        }
+      ]
+    },
+    {
+      "id": "R015",
+      "title": "Editor's Comments: Developing Propositions, a Process Model, or a Typology? Addressing the Challenges of Writing Theory Without a Boilerplate",
+      "citation": "Cornelissen, J. (2017). Editor's comments: Developing propositions, a process model, or a typology? Addressing the challenges of writing theory without a boilerplate. Academy of Management Review, 42(1), 1-9.",
+      "doi": "10.5465/amr.2016.0196",
+      "source_url": "https://repub.eur.nl/pub/108698",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R016",
+      "title": "What Theory Is and Can Be: Forms of Theorizing in Organizational Scholarship",
+      "citation": "Cornelissen, J., Höllerer, M. A., & Seidl, D. (2021). What theory is and can be: Forms of theorizing in organizational scholarship. Organization Theory, 2(3), 1-19.",
+      "doi": "10.1177/26317877211020328",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/26317877211020328",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The article distinguishes propositional, configurational, process, interpretive, and critical forms with different aims and reasoning styles. It advises judging a theory paper against the kind of contribution it attempts, and explicitly includes normative emancipatory theorizing. This supports flexible context and keeping a normative argument eligible for analysis.",
+          "locator": "Abstract; Theory as Conceptualization; Forms of Theorizing; Explanatory forms; Emancipatory forms; conclusion, paragraphs on judging contributions by form",
+          "relationship": "['Article gives contextual rationale, not validation of the checker or exact level rules.']",
+          "related_checks": [
+            "1.0",
+            "4.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://journals.sagepub.com/doi/10.1177/26317877211020328"
+        },
+        {
+          "paraphrase": "Knowledge claims gain strength from the scholarly work articulated in the paper, such as precise concepts, coherent explanations, or a well-grounded critique.",
+          "locator": "p. 3 (PDF p. 3), 'What Is Theory?'",
+          "relationship": "Supports checking the bridge in the draft's own mode of inference, not a universal causal mechanism.",
+          "related_checks": [
+            "1.2",
+            "1.4",
+            "1.5",
+            "1.6"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.1177/26317877211020328"
+        },
+        {
+          "paraphrase": "Conceptualizing a topic through a theoretical resource makes theoretical inferences possible; this is distinct from mere description of the topic.",
+          "locator": "pp. 4-5 (PDF pp. 4-5), 'Conceptualization'",
+          "relationship": "Relevant to observation/inference distinction and connecting steps.",
+          "related_checks": [
+            "1.3",
+            "1.4",
+            "5.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.1177/26317877211020328"
+        },
+        {
+          "paraphrase": "Theory papers can use propositional, configurational, process, perspectival, meta-theoretical, or critical forms with different knowledge interests.",
+          "locator": "pp. 5-7 (PDF pp. 5-7), 'Forms of Theorizing' and Table 1",
+          "relationship": "Strong counterevidence to mandatory propositions, causal arrows, a single purpose type, or a descriptive-only convention.",
+          "related_checks": [
+            "1.0",
+            "1.1",
+            "2.1",
+            "2.5",
+            "4.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.1177/26317877211020328"
+        }
+      ]
+    },
+    {
+      "id": "R017",
+      "title": "The theory crisis in management research: Solving the right problem",
+      "citation": "Cronin, M. A., Stouten, J., & van Knippenberg, D. (2021). The theory crisis in management research: Solving the right problem. Academy of Management Review, 46(4), 667-683.",
+      "doi": "10.5465/amr.2019.0294",
+      "source_url": "https://doi.org/10.5465/amr.2019.0294",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The paper separates unit theories about aspects of a phenomenon from programmatic theory that integrates settled collective knowledge, and argues the two need different development processes.",
+          "locator": "manuscript abstract (PDF p. 3)",
+          "relationship": "A distinction in theory development; current checker coherence criteria are a project application, not validated by this paper.",
+          "related_checks": [
+            "1.0",
+            "1.7"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://doi.org/10.5465/amr.2019.0294"
+        }
+      ]
+    },
+    {
+      "id": "R018",
+      "title": "Developing Theory Through Simulation Methods",
+      "citation": "Davis, J. P.; Eisenhardt, K. M.; Bingham, C. B. (2007). Developing Theory Through Simulation Methods. Academy of Management Review, 32(2), 480-499.",
+      "doi": "10.5465/amr.2007.24351453",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2007.24351453",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Presents simulation as a method for developing theory, particularly where longitudinal, nonlinear, and process phenomena matter. Shows another route to conceptual claims beyond prose deduction.",
+          "locator": "abstract, https://web.mit.edu/jasond/www/simulationmethods.pdf",
+          "relationship": "Methodological option, not a requirement for theory papers or evidence of checker performance.",
+          "related_checks": [
+            "1.0",
+            "1.4",
+            "optional:formal-theory"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2007.24351453"
+        }
+      ]
+    },
+    {
+      "id": "R019",
+      "title": "That's Interesting!: Towards a Phenomenology of Sociology and a Sociology of Phenomenology",
+      "citation": "Davis, M. S. (1971). That's interesting!: Towards a phenomenology of sociology and a sociology of phenomenology. Philosophy of the Social Sciences, 1(2), 309-344.",
+      "doi": "10.1177/004839317100100211",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/004839317100100211",
+      "reading_scope": "public excerpt",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "A displayed note characterizes jargon as restricting a proposition's audience to specialists. The article's broader interest/importance argument was not passage-checked here.",
+          "locator": "Sage article page, publisher-displayed footnote 4 (jargon); printed page for that footnote not confirmed.",
+          "relationship": "Only narrow optional word-choice background. The current rule's 'outside the field' reader and plain-word decision are project choices. Interest or importance is excluded from core logic checking.",
+          "related_checks": [
+            "W.1"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.sagepub.com/doi/10.1177/004839317100100211"
+        }
+      ]
+    },
+    {
+      "id": "R020",
+      "title": "How accurate are quotations and references in medical journals?",
+      "citation": "de Lacey, G., Record, C., & Wade, J. (1985). How accurate are quotations and references in medical journals? British Medical Journal (Clinical Research Ed.), 291(6499), 884-886.",
+      "doi": "10.1136/bmj.291.6499.884",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/3931753/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Errors in quotation and bibliographic references were observed; checking a reported claim against the actual cited record addresses a real failure mode.",
+          "locator": "Abstract; direct comparison with originals in six journals",
+          "relationship": "Six medical journals in one month; rates do not generalize to this corpus or demonstrate checker accuracy. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.2",
+            "5.6",
+            "5.8"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://pubmed.ncbi.nlm.nih.gov/3931753/"
+        }
+      ]
+    },
+    {
+      "id": "R021",
+      "title": "Epistemic modality and knowledge attribution in scientific discourse: A taxonomy of types and overview of features",
+      "citation": "de Waard, A., & Pander Maat, H. (2012). Epistemic modality and knowledge attribution in scientific discourse: A taxonomy of types and overview of features. Proceedings of the Workshop on Detecting Structure in Scholarly Discourse, 47-55.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/W12-4306/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Scientific statements differ in certainty and in whose knowledge they report, grounding separate attention to qualification and author/source attribution.",
+          "locator": "Abstract and taxonomy of epistemic status and attribution",
+          "relationship": "Taxonomy is not a rule to hedge every claim or proof that a particular claim is unsupported. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "4.4",
+            "5.1",
+            "5.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/W12-4306/"
+        }
+      ]
+    },
+    {
+      "id": "R022",
+      "title": "The Stakeholder Theory of the Corporation: Concepts, Evidence, and Implications",
+      "citation": "Donaldson, T., & Preston, L. E. (1995). The stakeholder theory of the corporation: Concepts, evidence, and implications. Academy of Management Review, 20(1), 65-91.",
+      "doi": "10.2307/258887",
+      "source_url": "https://www.jstor.org/stable/258887",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Descriptive, instrumental, and normative claims involve distinct forms of evidence and argument, even when connected in one account.",
+          "locator": "Abstract, especially the distinction between descriptive, instrumental, and normative aspects.",
+          "relationship": "Conceptual example supporting explicit claim types; neither a descriptive-only requirement nor a universal test of the normative bridge. Historically credited in core-v1.",
+          "related_checks": [
+            "4.5"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://www.jstor.org/stable/258887"
+        }
+      ]
+    },
+    {
+      "id": "R023",
+      "title": "Typologies as a Unique Form of Theory Building: Toward Improved Understanding and Modeling",
+      "citation": "Doty, D. H.; Glick, W. H. (1994). Typologies as a Unique Form of Theory Building: Toward Improved Understanding and Modeling. Academy of Management Review, 19(2), 230-251.",
+      "doi": "10.5465/amr.1994.9410210748",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1994.9410210748",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Distinguishes explanatory typologies from descriptive classification systems and discusses typologies as a theory form. Supports accepting configuration or type-based accounts.",
+          "locator": "publisher abstract; https://www.jstor.org/stable/258704",
+          "relationship": "Typology form does not apply to every argument and does not impose a type count.",
+          "related_checks": [
+            "1.0",
+            "1.7",
+            "optional:typology"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1994.9410210748"
+        }
+      ]
+    },
+    {
+      "id": "R024",
+      "title": "Theory building",
+      "citation": "Dubin, R. (1978). Theory building (rev. ed.). Free Press.",
+      "doi": null,
+      "source_url": "https://search.worldcat.org/title/Theory-building/oclc/832588458",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R025",
+      "title": "Building Theories from Case Study Research",
+      "citation": "Eisenhardt, K. M. (1989). Building Theories from Case Study Research. Academy of Management Review, 14(4), 532-550.",
+      "doi": "10.5465/amr.1989.4308385",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308385",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Describes an iterative route from cases to theory that includes question definition, within-case analysis, construct development, and replication logic.",
+          "locator": "abstract, https://www.jstor.org/stable/258557",
+          "relationship": "Inductive case method does not apply to all conceptual manuscripts or certify case evidence in a draft.",
+          "related_checks": [
+            "1.3",
+            "1.5",
+            "optional:empirical-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308385"
+        }
+      ]
+    },
+    {
+      "id": "R026",
+      "title": "Theory Building from Cases: Opportunities and Challenges",
+      "citation": "Eisenhardt, K. M.; Graebner, M. E. (2007). Theory Building from Cases: Opportunities and Challenges. Academy of Management Journal, 50(1), 25-32.",
+      "doi": "10.5465/amj.2007.24160888",
+      "source_url": "https://journals.aom.org/doi/10.5465/amj.2007.24160888",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Explains how one or more cases may be used to develop constructs, propositions, or midrange theory and discusses opportunities and challenges of that method.",
+          "locator": "opening definition of case-based theory building; university PDF https://josephmahoney.web.illinois.edu/BADM504_Fall%202019/Eisenhardt%20and%20Graebner%20%282007%29.pdf",
+          "relationship": "Methodological discussion does not make formal propositions compulsory or validate data quality.",
+          "related_checks": [
+            "1.3",
+            "1.5",
+            "2.5",
+            "optional:empirical-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amj.2007.24160888"
+        }
+      ]
+    },
+    {
+      "id": "R027",
+      "title": "The Logic of Real Arguments",
+      "citation": "Fisher, A. (2004). The logic of real arguments (2nd ed.). Cambridge University Press.",
+      "doi": "10.1017/cbo9780511818455",
+      "source_url": "https://www.cambridge.org/core/books/logic-of-real-arguments/BBAA0C6C76AF956819D1A348CA21BBEE",
+      "reading_scope": "publisher overview",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Assess a thesis against the argument or evidence it needs, and retain the conditions of a suppositional argument rather than making its conclusion unqualified.",
+          "locator": "Book description: what evidence would justify P; sustained and suppositional arguments",
+          "relationship": "Publisher description supports a high-level question, not a detailed method, fixed evidence threshold, or checker validation.",
+          "related_checks": [
+            "1.2",
+            "1.4",
+            "1.6",
+            "2.5",
+            "4.4"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://www.cambridge.org/core/books/logic-of-real-arguments/BBAA0C6C76AF956819D1A348CA21BBEE"
+        }
+      ]
+    },
+    {
+      "id": "R028",
+      "title": "From the Editors - Phenomenon-Based Theorizing",
+      "citation": "Fisher, G.; Mayer, K.; Morris, S. (2021). From the Editors - Phenomenon-Based Theorizing. Academy of Management Review, 46(4), 631-639.",
+      "doi": "10.5465/amr.2021.0320",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2021.0320",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Describes starting theorizing with a substantial understanding of the empirical phenomenon. Useful for optional phenomenon-centered framing.",
+          "locator": "section 'Why Is Phenomenon-Based Theorizing Valuable in Management Scholarship?'",
+          "relationship": "Does not make empirical observation obligatory for all theoretical or normative arguments.",
+          "related_checks": [
+            "1.3",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2021.0320"
+        }
+      ]
+    },
+    {
+      "id": "R029",
+      "title": "Argument Structure: Representation and Theory",
+      "citation": "Freeman, J. B. (2011). Argument structure: Representation and theory. Springer.",
+      "doi": "10.1007/978-94-007-0357-5",
+      "source_url": "https://link.springer.com/book/10.1007/978-94-007-0357-5",
+      "reading_scope": "publisher overview",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Reasons may support a conclusion jointly or independently; their structure matters when evaluating sibling contributions and support for a parent claim.",
+          "locator": "About this book: macrostructure; linked/convergent support; enthymemes",
+          "relationship": "Argument diagrams are analytical tools, not mandatory manuscript outlines. No checker validation.",
+          "related_checks": [
+            "1.7",
+            "2.3",
+            "3.3",
+            "4.2"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://link.springer.com/book/10.1007/978-94-007-0357-5"
+        }
+      ]
+    },
+    {
+      "id": "R030",
+      "title": "Capturing Causal Complexity: Heuristics for Configurational Theorizing",
+      "citation": "Furnari, S.; Crilly, D.; Misangyi, V. F.; Greckhamer, T.; Fiss, P. C.; Aguilera, R. V. (2021). Capturing Causal Complexity: Heuristics for Configurational Theorizing. Academy of Management Review, 46(4), 778-799.",
+      "doi": "10.5465/amr.2019.0298",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2019.0298",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Describes heuristics for discovering configurations where causal conditions combine. Helps recognize conjunctural and alternative explanations as legitimate theory forms.",
+          "locator": "article discussion of heuristics for configurations; https://www.peerfiss.com/s/Furnari-et-al-AMR-2021.pdf",
+          "relationship": "Transfer from causal configurations to sibling prose units is project interpretation.",
+          "related_checks": [
+            "1.7",
+            "2.3",
+            "optional:configurational-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2019.0298"
+        }
+      ]
+    },
+    {
+      "id": "R031",
+      "title": "Publishing in AMJ - Part 6: Discussing the implications",
+      "citation": "Geletkanycz, M., & Tepper, B. J. (2012). Publishing in AMJ - Part 6: Discussing the implications. Academy of Management Journal, 55(2), 256-260.",
+      "doi": "10.5465/amj.2012.4002",
+      "source_url": "https://doi.org/10.5465/amj.2012.4002",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The discussion should explain a study's theoretical implications and how its message relates to existing work; the authors explicitly bound this editorial's focus to theoretical contributions.",
+          "locator": "printed p. 256 (PDF p. 2), opening of 'Discussing the Implications'",
+          "relationship": "Outlet/section advice for empirical papers, not a universal discussion template.",
+          "related_checks": [
+            "2.4",
+            "1.6"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amj.2012.4002"
+        }
+      ]
+    },
+    {
+      "id": "R032",
+      "title": "The Role of Time in Theory and Theory Building",
+      "citation": "George, J. M.; Jones, G. R. (2000). The Role of Time in Theory and Theory Building. Journal of Management, 26(4), 657-684.",
+      "doi": "10.1177/014920630002600404",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/014920630002600404",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Shows that time can shape both construct meaning and relations among constructs, and identifies temporal dimensions for theorizing about organizations.",
+          "locator": "Abstract",
+          "relationship": "Temporal elaboration is context dependent; article does not mandate one temporal structure.",
+          "related_checks": [
+            "1.5",
+            "1.6",
+            "optional:process-theory"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.sagepub.com/doi/10.1177/014920630002600404"
+        }
+      ]
+    },
+    {
+      "id": "R033",
+      "title": "Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia Methodology",
+      "citation": "Gioia, D. A.; Corley, K. G.; Hamilton, A. L. (2013). Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia Methodology. Organizational Research Methods, 16(1), 15-31.",
+      "doi": "10.1177/1094428112452151",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/1094428112452151",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Explains a systematic approach to presenting inductive qualitative analysis and connecting informant concepts to higher-order theoretical concepts.",
+          "locator": "abstract; https://journals.sagepub.com/doi/pdf/10.1177/1094428112452151",
+          "relationship": "One qualitative methodology, not an obligatory coding display for every theory paper.",
+          "related_checks": [
+            "1.3",
+            "1.5",
+            "optional:empirical-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.sagepub.com/doi/10.1177/1094428112452151"
+        }
+      ]
+    },
+    {
+      "id": "R034",
+      "title": "Publishing in AMJ - Part 3: Setting the Hook",
+      "citation": "Grant, A. M., & Pollock, T. G. (2011). Publishing in AMJ - Part 3: Setting the hook. Academy of Management Journal, 54(5), 873-879.",
+      "doi": "10.5465/amj.2011.4000",
+      "source_url": "https://journals.aom.org/doi/10.5465/amj.2011.4000",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "An effective introduction motivates why a question matters, establishes what is known and unresolved, and previews what the paper contributes. The authors report reviewers' concern when an introduction raises expectations that the manuscript does not fulfill.",
+          "locator": "Original editorial PDF: PDF pp. 1-2 = printed pp. 873-874 for the three introduction questions and contribution preview; PDF p. 5 = printed p. 877 for the overpromising pitfall (PDF index P4). DOI and printed range appear on PDF p. 1.",
+          "relationship": "Direct support is for alignment between an introduction's contribution promise and the article body. Applying the principle to every heading's promises is a generalized harness design choice, not a rule stated by the editorial. The PDF is an institutional copy of the original published article.",
+          "related_checks": [
+            "2.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.upf.edu/documents/4086724/4090051/FTE-SettingTheHook.pdf/0915f653-c0e5-9d42-d4e1-65f6f386f491"
+        }
+      ]
+    },
+    {
+      "id": "R035",
+      "title": "How citation distortions create unfounded authority: analysis of a citation network",
+      "citation": "Greenberg, S. A. (2009). How citation distortions create unfounded authority: Analysis of a citation network. BMJ, 339, b2680.",
+      "doi": "10.1136/bmj.b2680",
+      "source_url": "https://www.bmj.com/content/339/bmj.b2680",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The article investigates how citation distortion can propagate apparent authority; this broadly motivates checking source fidelity.",
+          "locator": "BMJ article information and abstract search record",
+          "relationship": "['BMJ page blocked at open; claim based on publisher title/abstract search record, not inspected sections.']",
+          "related_checks": [
+            "5.2",
+            "5.6"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://www.bmj.com/content/339/bmj.b2680"
+        }
+      ]
+    },
+    {
+      "id": "R036",
+      "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
+      "citation": "Greenland, S., Senn, S. J., Rothman, K. J., Carlin, J. B., Poole, C., Goodman, S. N., & Altman, D. G. (2016). Statistical tests, P values, confidence intervals, and power: A guide to misinterpretations. European Journal of Epidemiology, 31(4), 337-350.",
+      "doi": "10.1007/s10654-016-0149-3",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27209009/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Conclusions can overstate what P values or confidence intervals license; reported statistical results and inferential claims should be kept distinct.",
+          "locator": "Abstract; common inferential misreadings",
+          "relationship": "Only applies when such statistical claims appear; this work does not provide a generic inference validator. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.3",
+            "1.6",
+            "4.4",
+            "5.6"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://pubmed.ncbi.nlm.nih.gov/27209009/"
+        }
+      ]
+    },
+    {
+      "id": "R037",
+      "title": "Centering: A framework for modeling the local coherence of discourse",
+      "citation": "Grosz, B. J., Joshi, A. K., & Weinstein, S. (1995). Centering: A framework for modeling the local coherence of discourse. Computational Linguistics, 21(2), 203-225.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/J95-2003/",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Maintaining and shifting discourse focus affects perceived local coherence; abrupt ambiguous referent changes can matter to sentence fit.",
+          "locator": "Abstract; local attentional state and referring expressions",
+          "relationship": "Models local utterance coherence, especially reference, not inferential validity. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "3.3",
+            "4.3",
+            "4.6"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://aclanthology.org/J95-2003/"
+        }
+      ]
+    },
+    {
+      "id": "R038",
+      "title": "Attention, intentions, and the structure of discourse",
+      "citation": "Grosz, B. J., & Sidner, C. L. (1986). Attention, intentions, and the structure of discourse. Computational Linguistics, 12(3), 175-204.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/J86-3001/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Discourse segments are related through communicative purposes and attention; a section's role can be examined in relation to a larger purpose.",
+          "locator": "Abstract; discourse purpose, attention, and segment structure",
+          "relationship": "Theory of discourse processing, not a required outline or proof of nested argument rules. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.1",
+            "2.1",
+            "2.2"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/J86-3001/"
+        }
+      ]
+    },
+    {
+      "id": "R039",
+      "title": "Are our referencing errors undermining our scholarship and credibility? The case of expatriate failure rates",
+      "citation": "Harzing, A.-W. (2002). Are our referencing errors undermining our scholarship and credibility? The case of expatriate failure rates. Journal of Organizational Behavior, 23(1), 127-148.",
+      "doi": "10.1002/job.125",
+      "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.125",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "In a 60-reference citation network on expatriate failure rates, Harzing reports that miscitation helped establish an unsupported belief. This supports checking attribution and fidelity when records are supplied, but not inferring a mismatch from absent records.",
+          "locator": "Wiley publisher abstract and How to cite block",
+          "relationship": "[\"The author's accessible prepublication version differs from final text; this ledger uses the Wiley abstract only.\", \"Does not establish the project's exact rule thresholds.\"]",
+          "related_checks": [
+            "5.2",
+            "5.4",
+            "5.6"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.125"
+        }
+      ]
+    },
+    {
+      "id": "R040",
+      "title": "Text Tiling: Segmenting text into multi-paragraph subtopic passages",
+      "citation": "Hearst, M. A. (1997). Text Tiling: Segmenting text into multi-paragraph subtopic passages. Computational Linguistics, 23(1), 33-64.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/J97-1003/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Lexical distribution can mark shifts between multi-paragraph subtopics, supporting examination of section and paragraph grouping.",
+          "locator": "PDF p. 1 abstract",
+          "relationship": "Subtopic segmentation is not the same as logical contribution; the paper tested 12 texts. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "2.2",
+            "3.3"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/J97-1003/"
+        }
+      ]
+    },
+    {
+      "id": "R041",
+      "title": "The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data",
+      "citation": "Hernán, M. A. (2018). The C-word: Scientific euphemisms do not improve causal inference from observational data. American Journal of Public Health, 108(5), 616-619.",
+      "doi": "10.2105/ajph.2018.304337",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29565659/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Causal intent should be stated clearly so the question, analysis, and interpretation align; avoiding causal words does not by itself prevent overreach.",
+          "locator": "Abstract; explicit causal objective versus euphemism",
+          "relationship": "Commentary on observational research; causal wording still requires a design/assumption bridge. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.3",
+            "1.6",
+            "4.4"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://pubmed.ncbi.nlm.nih.gov/29565659/"
+        }
+      ]
+    },
+    {
+      "id": "R042",
+      "title": "Causal Knowledge as a Prerequisite for Confounding Evaluation: An Application to Birth Defects Epidemiology",
+      "citation": "Hernán, M. A., Hernández-Díaz, S., Werler, M. M., & Mitchell, A. A. (2002). Causal knowledge as a prerequisite for confounding evaluation: An application to birth defects epidemiology. American Journal of Epidemiology, 155(2), 176-184.",
+      "doi": "10.1093/aje/155.2.176",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11790682/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Statistical adjustment alone can mislead when causal structure is misconstrued; a causal conclusion depends on articulated assumptions.",
+          "locator": "Abstract; a priori causal knowledge and confounding",
+          "relationship": "Specific epidemiologic case; the harness cannot adjudicate the underlying causal design from prose alone. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.4",
+            "1.6",
+            "4.4"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://pubmed.ncbi.nlm.nih.gov/11790682/"
+        }
+      ]
+    },
+    {
+      "id": "R043",
+      "title": "On Reasoning and Argument: Essays in Informal Logic and on Critical Thinking",
+      "citation": "Hitchcock, D. (2017). On reasoning and argument: Essays in informal logic and on critical thinking. Springer.",
+      "doi": "10.1007/978-3-319-53562-3",
+      "source_url": "https://link.springer.com/book/10.1007/978-3-319-53562-3",
+      "reading_scope": "publisher overview",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Arguments can chain or embed, and inference can be assessed without inventing unstated premises; the bridge may be implicit or indeterminate.",
+          "locator": "About this book: material consequence, recursive argument, relevance",
+          "relationship": "Do not fabricate hidden premises or demand a single inference form. No checker validation.",
+          "related_checks": [
+            "1.2",
+            "1.4",
+            "1.6",
+            "2.5"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://link.springer.com/book/10.1007/978-3-319-53562-3"
+        }
+      ]
+    },
+    {
+      "id": "R044",
+      "title": "Hedging in Scientific Research Articles",
+      "citation": "Hyland, K. (1998). Hedging in scientific research articles. John Benjamins.",
+      "doi": "10.1075/pbns.54",
+      "source_url": "https://benjamins.com/catalog/pbns.54",
+      "reading_scope": "publisher overview",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The publisher overview says the book analyzes forms and functions of hedging in research articles and explains their role in expressing possibility and tentativeness. This is related to qualified claims, but the exact 4.4 diagnostic is a project interpretation.",
+          "locator": "John Benjamins product overview and table of contents; On Hedging and Hedges pp. 1-12; Examining Hedges in Scientific Discourse pp. 189-216",
+          "relationship": "['Benjamins book DOI is 10.1075/pbns.54; its later online date (2011) is not the original book year.', 'Chapter titles/pages are contents locators; chapter text was not read.']",
+          "related_checks": [
+            "4.4"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://benjamins.com/catalog/pbns.54"
+        }
+      ]
+    },
+    {
+      "id": "R045",
+      "title": "Academic attribution: Citation and the construction of disciplinary knowledge",
+      "citation": "Hyland, K. (1999). Academic attribution: Citation and the construction of disciplinary knowledge. Applied Linguistics, 20(3), 341-367.",
+      "doi": "10.1093/applin/20.3.341",
+      "source_url": "https://academic.oup.com/applij/article/20/3/341/159465",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "An 80 article corpus and writer interviews show citation frequency and reporting forms differ by discipline. This cautions against treating a single citation placement convention as a universal test of attribution.",
+          "locator": "Oxford Academic abstract, paragraphs 1-2",
+          "relationship": "['Does not establish whether any particular clause accurately reports a source.']",
+          "related_checks": [
+            "5.1",
+            "5.3",
+            "5.4"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://academic.oup.com/applij/article/20/3/341/159465"
+        }
+      ]
+    },
+    {
+      "id": "R046",
+      "title": "Designing Conceptual Articles: Four Approaches",
+      "citation": "Jaakkola, E. (2020). Designing Conceptual Articles: Four Approaches. AMS Review, 10, 18-26.",
+      "doi": "10.1007/s13162-020-00161-0",
+      "source_url": "https://link.springer.com/article/10.1007/s13162-020-00161-0",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Conceptual articles need an explicit design and justified use of theories; synthesis, adaptation, typology, and model are distinct approaches with different aims.",
+          "locator": "Abstract; Introduction; discussion of theory synthesis, adaptation, typology, and model",
+          "relationship": "Four approaches are useful options, not mandatory forms or checker pass conditions.",
+          "related_checks": [
+            "1.1",
+            "1.4",
+            "2.1",
+            "optional:theory-genre",
+            "optional:literature-synthesis"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://link.springer.com/article/10.1007/s13162-020-00161-0"
+        }
+      ]
+    },
+    {
+      "id": "R047",
+      "title": "Editors' Comments: Developing Novel Theoretical Insight from Reviews of Existing Theory and Research",
+      "citation": "Jeffery A. LePine; Adelaide Wilcox King (2010). Editors' Comments: Developing Novel Theoretical Insight from Reviews of Existing Theory and Research. Academy of Management Review, 35(4), 506-509.",
+      "doi": "10.5465/amr.35.4.zok506",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.35.4.zok506",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "An editorial on developing theoretical insight from reviews, useful when a manuscript uses literature synthesis as its contribution route.",
+          "locator": "opening statement of AMR mission; https://journals.aom.org/doi/pdf/10.5465/amr.35.4.zok506",
+          "relationship": "Novelty and publication merit remain outside current core logic checks.",
+          "related_checks": [
+            "1.1",
+            "2.4",
+            "optional:literature-synthesis"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.35.4.zok506"
+        }
+      ]
+    },
+    {
+      "id": "R048",
+      "title": "Quotation accuracy in medical journal articles - a systematic review and meta-analysis",
+      "citation": "Jergas, H., & Baethge, C. (2015). Quotation accuracy in medical journal articles: A systematic review and meta-analysis. PeerJ, 3, e1364.",
+      "doi": "10.7717/peerj.1364",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26528420/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "A cited reference sometimes fails to support the citing author's claim; source-content spot checks and clear citation placement address that risk.",
+          "locator": "Abstract; 28-study quotation-error synthesis",
+          "relationship": "Medical-journal literature with heterogeneity; it cannot supply source records for this harness or prove its detection accuracy. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.2",
+            "5.4",
+            "5.6"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://pubmed.ncbi.nlm.nih.gov/26528420/"
+        }
+      ]
+    },
+    {
+      "id": "R049",
+      "title": "The Essential Impact of Context on Organizational Behavior",
+      "citation": "Johns, G. (2006). The Essential Impact of Context on Organizational Behavior. Academy of Management Review, 31(2), 386-408.",
+      "doi": "10.5465/amr.2006.20208687",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2006.20208687",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Argues that situational context is often underappreciated in organizational behavior explanations. Supports attention to scope and stated boundary conditions.",
+          "locator": "abstract; https://www.jstor.org/stable/20159208",
+          "relationship": "Does not mean every sentence must name a contextual moderator.",
+          "related_checks": [
+            "1.6",
+            "4.4",
+            "5.5",
+            "optional:boundary-conditions"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2006.20208687"
+        }
+      ]
+    },
+    {
+      "id": "R050",
+      "title": "Measuring the Evolution of a Scientific Field through Citation Frames",
+      "citation": "Jurgens, D., Kumar, S., Hoover, R., McFarland, D., & Jurafsky, D. (2018). Measuring the evolution of a scientific field through citation frames. Transactions of the Association for Computational Linguistics, 6, 391-406.",
+      "doi": "10.1162/tacl_a_00028",
+      "source_url": "https://aclanthology.org/Q18-1028/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Citation functions help reveal how authors position prior work, and those functions vary with discourse position and venue.",
+          "locator": "Abstract; citation frames and field/venue variation",
+          "relationship": "Citation intent categories are descriptive, not authority for fixed citation placement. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.1",
+            "5.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/Q18-1028/"
+        }
+      ]
+    },
+    {
+      "id": "R051",
+      "title": "Editor's Comments: Publishing Theory",
+      "citation": "Kilduff, M. (2006). Editor's Comments: Publishing Theory. Academy of Management Review, 31(2), 252-255.",
+      "doi": "10.5465/amr.2006.20208678",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2006.20208678",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Notes that formal propositions suit some approaches to theory, while theoretical approaches vary. Supports treating propositions as optional genre devices.",
+          "locator": "discussion of propositions and different theoretical approaches",
+          "relationship": "Does not require propositions or establish a universal paper template.",
+          "related_checks": [
+            "2.5",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2006.20208678"
+        }
+      ]
+    },
+    {
+      "id": "R052",
+      "title": "Recognizing speculative language in biomedical research articles: A linguistically motivated perspective",
+      "citation": "Kilicoglu, H., & Bergler, S. (2008). Recognizing speculative language in biomedical research articles: A linguistically motivated perspective. Proceedings of BioNLP 2008, 46-53.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/W08-0607/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Speculative cues can change a proposition's strength; the scope and context of a qualifier matter more than a word-list trigger.",
+          "locator": "PDF p. 1; hedging can alter factual status and same word is context-dependent",
+          "relationship": "Biomedical corpus and speculation recognition do not determine whether an argument is adequately qualified. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "4.4",
+            "5.2",
+            "5.7"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/W08-0607/"
+        }
+      ]
+    },
+    {
+      "id": "R053",
+      "title": "Toward a model of text comprehension and production",
+      "citation": "Kintsch, W., & van Dijk, T. A. (1978). Toward a model of text comprehension and production. Psychological Review, 85(5), 363-394.",
+      "doi": "10.1037/0033-295x.85.5.363",
+      "source_url": "https://www.cl.cam.ac.uk/teaching/1516/R216/Towards.pdf",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The model distinguishes local semantic connections from global gist and explains how a reader constructs a coherent text base. This motivates attention to hierarchy and paragraph coherence, but does not mandate headings, one-point paragraphs, or topic-first placement.",
+          "locator": "p. 363 abstract and introduction; pp. 365-366 semantic macrostructure and schematic structure",
+          "relationship": "['Original facsimile hosted by a university course rather than current publisher; source supports a comprehension model, not a checker threshold.']",
+          "related_checks": [
+            "2.1",
+            "2.2",
+            "3.1",
+            "3.2"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.cl.cam.ac.uk/teaching/1516/R216/Towards.pdf"
+        },
+        {
+          "paraphrase": "The model distinguishes local links among propositions from a discourse-wide topic and treats both local connection and global organization as aspects of coherence. Readers can infer some links, so an unstated step is not automatically absent from understanding.",
+          "locator": "Printed pp. 365-366; PDF pages 2-3, Semantic Structures and Macrostructure of Discourse.",
+          "relationship": "This is a theory of comprehension and production, not a mandate for heading order, topic-first prose, or the staged checker's exact up/down tests. The mapping is background for relating parts to a whole.",
+          "related_checks": [
+            "2.1",
+            "2.2",
+            "3.2"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.cl.cam.ac.uk/teaching/1516/R216/Towards.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R054",
+      "title": "Levels issues in theory development, data collection, and analysis",
+      "citation": "Klein, K. J., Dansereau, F., & Hall, R. J. (1994). Levels issues in theory development, data collection, and analysis. Academy of Management Review, 19(2), 195-229.",
+      "doi": "10.5465/amr.1994.9410210745",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1994.9410210745",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R055",
+      "title": "Writing for Readers",
+      "citation": "Kohles, M. (2012, Winter). Writing for readers: Questions for Larry McEnerney. The Core, University of Chicago.",
+      "doi": null,
+      "source_url": "https://thecore.uchicago.edu/Winter2012/departments/EotQ-writing-for-readers.shtml",
+      "reading_scope": "selected text",
+      "provenance": "prior supporting source",
+      "concepts": [
+        {
+          "paraphrase": "McEnerney treats writing guidance as tools for anticipating reader difficulty and rejects a blanket passive-voice prohibition.",
+          "locator": "Final questions about passive verbs and converting Schoolhouse ideas into rules.",
+          "relationship": "Posthoc supporting source, already added during October checks. Not evidence that the interview informed original construction, and not a source for a mandatory one-purpose rule.",
+          "related_checks": [
+            "4.6"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://thecore.uchicago.edu/Winter2012/departments/EotQ-writing-for-readers.shtml"
+        }
+      ]
+    },
+    {
+      "id": "R056",
+      "title": "A multilevel approach to theory and research in organizations: Contextual, temporal, and emergent processes",
+      "citation": "Kozlowski, S. W. J., & Klein, K. J. (2000). A multilevel approach to theory and research in organizations: Contextual, temporal, and emergent processes. In K. J. Klein & S. W. J. Kozlowski (Eds.), Multilevel theory, research, and methods in organizations: Foundations, extensions, and new directions (pp. 3-90). Jossey-Bass.",
+      "doi": null,
+      "source_url": "https://www.wiley.com/en-us/Multilevel%2BTheory%2C%2BResearch%2C%2Band%2BMethods%2Bin%2BOrganizations%3A%2BFoundations%2C%2BExtensions%2C%2Band%2BNew%2BDirections-p-9780787952280",
+      "reading_scope": "metadata",
+      "provenance": "new supporting source",
+      "concepts": []
+    },
+    {
+      "id": "R057",
+      "title": "Editors' comments: Sense and structure - The core building blocks of an AMR article",
+      "citation": "Lange, D., & Pfarrer, M. D. (2017). Editors' comments: Sense and structure - The core building blocks of an AMR article. Academy of Management Review, 42(3), 407-416.",
+      "doi": "10.5465/amr.2016.0225",
+      "source_url": "https://doi.org/10.5465/amr.2016.0225",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The editorial frames an AMR article through common ground, complication, concern, course of action, and contribution, while acknowledging more than one way to develop them.",
+          "locator": "printed p. 407 (PDF p. 1), opening and five-block introduction",
+          "relationship": "AMR editorial guidance; not a mandatory format for every genre or a validation of checker flags.",
+          "related_checks": [
+            "2.1",
+            "2.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2016.0225"
+        }
+      ]
+    },
+    {
+      "id": "R058",
+      "title": "Strategies for Theorizing from Process Data",
+      "citation": "Langley, A. (1999). Strategies for Theorizing from Process Data. Academy of Management Review, 24(4), 691-710.",
+      "doi": "10.5465/amr.1999.2553248",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1999.2553248",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Compares alternative strategies for analyzing process data and the kinds of theorizing they enable. Process accounts can use differing forms of evidence and explanation.",
+          "locator": "abstract, https://www.jstor.org/stable/259349",
+          "relationship": "Data-analysis advice does not establish that a prose checker can assess empirical truth.",
+          "related_checks": [
+            "1.3",
+            "1.4",
+            "optional:process-theory"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1999.2553248"
+        }
+      ]
+    },
+    {
+      "id": "R059",
+      "title": "Process Studies of Change in Organization and Management: Unveiling Temporality, Activity, and Flow",
+      "citation": "Langley, A.; Smallman, C.; Tsoukas, H.; Van de Ven, A. H. (2013). Process Studies of Change in Organization and Management: Unveiling Temporality, Activity, and Flow. Academy of Management Journal, 56(1), 1-13.",
+      "doi": "10.5465/amj.2013.4001",
+      "source_url": "https://journals.aom.org/doi/10.5465/amj.2013.4001",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Process studies ask how and why phenomena emerge, develop, and end over time. Useful when checking whether a process account's sequence and explanation are intelligible.",
+          "locator": "opening description of process studies",
+          "relationship": "Does not imply that every theory must model temporality or linear stages.",
+          "related_checks": [
+            "1.4",
+            "2.3",
+            "optional:process-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amj.2013.4001"
+        }
+      ]
+    },
+    {
+      "id": "R060",
+      "title": "Automatically evaluating text coherence using discourse relations",
+      "citation": "Lin, Z., Ng, H. T., & Kan, M.-Y. (2011). Automatically evaluating text coherence using discourse relations. Proceedings of ACL-HLT 2011, 997-1006.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/P11-1100/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Discourse relations contribute information beyond entity continuity when evaluating text coherence; sibling units may relate by contrast, explanation, or other functions.",
+          "locator": "Abstract; discourse relations and coherence evaluation",
+          "relationship": "Computational coherence evaluation is narrower than the harness's logic judgments. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "2.3",
+            "3.3",
+            "4.3"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/P11-1100/"
+        }
+      ]
+    },
+    {
+      "id": "R061",
+      "title": "CONSTRUCTING OPPORTUNITIES FOR CONTRIBUTION: STRUCTURING INTERTEXTUAL COHERENCE AND \"PROBLEMATIZING\" IN ORGANIZATIONAL STUDIES.",
+      "citation": "Locke, K., & Golden-Biddle, K. (1997). Constructing opportunities for contribution: Structuring intertextual coherence and 'problematizing' in organizational studies. Academy of Management Journal, 40(5), 1023-1062.",
+      "doi": "10.5465/256926",
+      "source_url": "https://journals.aom.org/doi/abs/10.5465/256926",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The abstract describes a study of how organizational authors establish contribution through intertextual coherence and problematizing prior work.",
+          "locator": "Publisher-indexed abstract only; no printed passage locator.",
+          "relationship": "This is a study of contribution construction, not evidence that every current draft must challenge an assumption; no current rule support asserted.",
+          "related_checks": [],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/abs/10.5465/256926"
+        }
+      ]
+    },
+    {
+      "id": "R062",
+      "title": "A Framework for Conceptual Contributions in Marketing",
+      "citation": "MacInnis, D. J. (2011). A Framework for Conceptual Contributions in Marketing. Journal of Marketing, 75(4), 136-154.",
+      "doi": "10.1509/jmkg.75.4.136",
+      "source_url": "https://journals.sagepub.com/doi/10.1509/jmkg.75.4.136",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Develops a typology of different conceptual contributions and the thinking skills associated with them. Useful for optional guidance on what kind of conceptual move a paper attempts.",
+          "locator": "Abstract",
+          "relationship": "Marketing-specific contribution taxonomy; current core deliberately excludes novelty and importance judgments.",
+          "related_checks": [
+            "1.1",
+            "optional:contribution"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.sagepub.com/doi/10.1509/jmkg.75.4.136"
+        }
+      ]
+    },
+    {
+      "id": "R063",
+      "title": "Guidance for AMR Authors about Making Formal Theory Accessible",
+      "citation": "Makadok, R. (2022). Guidance for AMR Authors about Making Formal Theory Accessible. Academy of Management Review, 47(2), 193-205.",
+      "doi": "10.5465/amr.2022.0060",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2022.0060",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "For formal theory papers, explains the need to articulate key assumptions and explain causal reasoning in terms accessible to a broad readership.",
+          "locator": "passage on articulating and justifying assumptions and translating causal logic",
+          "relationship": "Formal modeling outlet advice does not impose mathematics or a prose format on other genres.",
+          "related_checks": [
+            "1.2",
+            "1.4",
+            "4.6",
+            "optional:formal-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2022.0060"
+        }
+      ]
+    },
+    {
+      "id": "R064",
+      "title": "Optimizing concepts: Conceptual engineering in the field of management - The case of routines research",
+      "citation": "Makowski, P. T. (2021). Optimizing concepts: Conceptual engineering in the field of management - The case of routines research. Academy of Management Review, 46(4), 702-724.",
+      "doi": "10.5465/amr.2019.0252",
+      "source_url": "https://doi.org/10.5465/amr.2019.0252",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Conceptual engineering is presented as an explicit method for examining and revising concepts; routines research supplies substantive demonstrations.",
+          "locator": "manuscript abstract (PDF p. 3)",
+          "relationship": "Supports attention to concepts in theory building; does not define a universal binary consistency check.",
+          "related_checks": [
+            "1.5"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://doi.org/10.5465/amr.2019.0252"
+        }
+      ]
+    },
+    {
+      "id": "R065",
+      "title": "Conceptual engineering: The assessment of rigor and rudimentary recommendations for theory developers",
+      "citation": "Makowski, P. T. (2024). Conceptual engineering: The assessment of rigor and rudimentary recommendations for theory developers. Academy of Management Review, 49(2), 431-435.",
+      "doi": "10.5465/amr.2021.0203",
+      "source_url": "https://doi.org/10.5465/amr.2021.0203",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "In response to Oswick and colleagues, Makowski argues for making conceptual innovations and updates reflective and explicit while considering conceptual precision and rigor.",
+          "locator": "dialogue manuscript opening (PDF p. 3)",
+          "relationship": "A contested methodological position; do not present the exchange as settled proof of a harness rule.",
+          "related_checks": [
+            "1.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0203"
+        }
+      ]
+    },
+    {
+      "id": "R066",
+      "title": "Rhetorical Structure Theory: Toward a functional theory of text organization",
+      "citation": "Mann, W. C., & Thompson, S. A. (1988). Rhetorical Structure Theory: Toward a functional theory of text organization. Text, 8(3), 243-281.",
+      "doi": "10.1515/text.1.1988.8.3.243",
+      "source_url": "https://www.sfu.ca/rst/05bibliographies/reports.html",
+      "reading_scope": "companion guidance",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Parts of a coherent text can have recognizable functions relative to other parts, including evidence, background, elaboration, contrast, and condition; span order is not fixed and more than one plausible analysis may exist.",
+          "locator": "RST development-team Introduction to RST, sections 'Texts, Coherence and Structure' and 'Nucleus::Satellite Relations'; no original article page claimed.",
+          "relationship": "Conceptual background from the developer site, not a page-level check of the 1988 article. It does not impose a mandatory heading hierarchy, unique reading, or automatic failure for a span without a detected relation.",
+          "related_checks": [
+            "2.2",
+            "2.3",
+            "3.3"
+          ],
+          "reading_scope": "companion guidance",
+          "content_url": "https://www.sfu.ca/rst/01intro/intro.html"
+        }
+      ]
+    },
+    {
+      "id": "R067",
+      "title": "Configurational approaches to organizational analysis",
+      "citation": "Meyer, A. D., Tsui, A. S., & Hinings, C. R. (1993). Configurational approaches to organizational analysis. Academy of Management Journal, 36(6), 1175-1195.",
+      "doi": "10.5465/256809",
+      "source_url": "https://journals.aom.org/doi/10.5465/256809",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R068",
+      "title": "Developing Theory about the Development of Theory",
+      "citation": "Mintzberg, H. (2014, January). Developing theory about the development of theory. Author revision of the 2005 chapter in Great Minds in Management, pp. 355-372.",
+      "doi": null,
+      "source_url": "https://mintzberg.org/sites/default/files/article/download/developing_theory_about_the_development_of_theory_jan_2014.pdf",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Theory is a useful simplification and competing explanations can stimulate thought; a checker should not treat a single causal model as the only theoretical form.",
+          "locator": "2014 author version pp. 1-3, sections 'What Theory Isn't' and 'What Theory Development Isn't'",
+          "relationship": "Related counterweight to rigid model format, not a proof of a diagnostic.",
+          "related_checks": [
+            "1.0",
+            "1.7"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://mintzberg.org/sites/default/files/article/download/developing_theory_about_the_development_of_theory_jan_2014.pdf"
+        },
+        {
+          "paraphrase": "The author distinguishes creating theory through induction from testing it deductively and describes them as potentially mutually informative.",
+          "locator": "2014 author version pp. 3-4, 'What Theory Development Isn't'",
+          "relationship": "Background for distinguishing reported material, inference, and testing; author's methodological view.",
+          "related_checks": [
+            "1.3",
+            "1.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://mintzberg.org/sites/default/files/article/download/developing_theory_about_the_development_of_theory_jan_2014.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R069",
+      "title": "Building Better Theory: Time and the Specification of When Things Happen",
+      "citation": "Mitchell, T. R.; James, L. R. (2001). Building Better Theory: Time and the Specification of When Things Happen. Academy of Management Review, 26(4), 530-547.",
+      "doi": "10.5465/amr.2001.5393889",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2001.5393889",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Argues that causal theory needs to specify when relationships unfold and when variables are measured. Temporal assumptions can change the meaning of a claimed relation.",
+          "locator": "abstract; https://www.jstor.org/stable/3560240",
+          "relationship": "Timing questions apply when temporality matters; no universal time-variable requirement follows.",
+          "related_checks": [
+            "1.2",
+            "1.6",
+            "4.4",
+            "optional:process-theory"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2001.5393889"
+        }
+      ]
+    },
+    {
+      "id": "R070",
+      "title": "Idea generation in abductive thinking: Not one but three approaches",
+      "citation": "Mithani, M. A., & Kocoglu, I. (2024). Idea generation in abductive thinking: Not one but three approaches. Academy of Management Review, 49(2), 451-454.",
+      "doi": "10.5465/amr.2021.0177",
+      "source_url": "https://doi.org/10.5465/amr.2021.0177",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The authors distinguish disciplined imagination, hunches, and serendipitous insight as overlapping but different routes to alternative explanations.",
+          "locator": "dialogue manuscript p. 2 (PDF p. 3), 'Idea Generation in Abductive Thinking'",
+          "relationship": "A debate about generating theory; it should not become a mandatory checker taxonomy.",
+          "related_checks": [
+            "1.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0177"
+        }
+      ]
+    },
+    {
+      "id": "R071",
+      "title": "Argument Mining with Structured SVMs and RNNs",
+      "citation": "Niculae, V., Park, J., & Cardie, C. (2017). Argument mining with structured SVMs and RNNs. Proceedings of ACL 2017, 985-995.",
+      "doi": "10.18653/v1/p17-1091",
+      "source_url": "https://aclanthology.org/P17-1091/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Argument relations need not form a tree; dependent, multiple, and adjacent relations are possible, so sibling fit should allow more than one pattern.",
+          "locator": "Abstract; relations not necessarily a tree",
+          "relationship": "Web-comment/essay modeling motivates flexibility; it neither defines this project's hierarchy nor tests checker accuracy. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.7",
+            "2.3",
+            "3.3"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/P17-1091/"
+        }
+      ]
+    },
+    {
+      "id": "R072",
+      "title": "The Challenges of Building Theory by Combining Lenses",
+      "citation": "Okhuysen, G.; Bonardi, J. P. (2011). The Challenges of Building Theory by Combining Lenses. Academy of Management Review, 36(1), 6-11.",
+      "doi": "10.5465/amr.36.1.zok006",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.36.1.zok006",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Combining theoretical lenses requires attention to their conceptual distance and the phenomenon each originally explains. Supports asking how premises from different accounts fit.",
+          "locator": "discussion of conceptual proximity between lenses",
+          "relationship": "Does not require an outside lens or any fixed number of lenses.",
+          "related_checks": [
+            "1.4",
+            "1.7",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.36.1.zok006"
+        }
+      ]
+    },
+    {
+      "id": "R073",
+      "title": "Concept Fallibility in Organizational Science",
+      "citation": "Osigweh, C. A. B. (1989). Concept Fallibility in Organizational Science. Academy of Management Review, 14(4), 579-594.",
+      "doi": "10.5465/amr.1989.4308390",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308390",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Emphasizes problems of forming and using concepts at different levels of abstraction in organization research. Supports checking material changes in concept meaning.",
+          "locator": "abstract, https://www.jstor.org/stable/258560",
+          "relationship": "Conceptual rigor is broader than detecting term repetition or synonym changes.",
+          "related_checks": [
+            "1.5",
+            "5.7",
+            "optional:construct-clarity"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308390"
+        }
+      ]
+    },
+    {
+      "id": "R074",
+      "title": "Reconceptualizing conceptual engineering",
+      "citation": "Oswick, C., Biscaro, C., Bruni, E., & Cornelissen, J. (2024). Reconceptualizing conceptual engineering. Academy of Management Review, 49(2), 429-431.",
+      "doi": "10.5465/amr.2021.0031",
+      "source_url": "https://doi.org/10.5465/amr.2021.0031",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The authors qualify the scope of conceptual engineering and recast it as a more contingent, reflexive aid to theorizing.",
+          "locator": "dialogue manuscript opening (PDF p. 3), 'Precision Engineering?'",
+          "relationship": "The reply challenges treating conceptual precision as one context-free optimization rule.",
+          "related_checks": [
+            "1.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0031"
+        }
+      ]
+    },
+    {
+      "id": "R075",
+      "title": "Building Process Theory with Narrative: From Description to Explanation",
+      "citation": "Pentland, B. T. (1999). Building Process Theory with Narrative: From Description to Explanation. Academy of Management Review, 24(4), 711-724.",
+      "doi": "10.5465/amr.1999.2553249",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1999.2553249",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Distinguishes observable narrative features useful for description from deeper structures needed for process explanation. Helps separate reported sequences from explanatory inference.",
+          "locator": "abstract, https://www.jstor.org/stable/259350",
+          "relationship": "Narrative is one theory form; deeper structure is not an obligatory causal arrow in every paper.",
+          "related_checks": [
+            "1.3",
+            "1.4",
+            "optional:process-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1999.2553249"
+        }
+      ]
+    },
+    {
+      "id": "R076",
+      "title": "End-to-End Argumentation Mining in Student Essays",
+      "citation": "Persing, I., & Ng, V. (2016). End-to-end argumentation mining in student essays. Proceedings of NAACL-HLT 2016, 1384-1394.",
+      "doi": "10.18653/v1/n16-1164",
+      "source_url": "https://aclanthology.org/N16-1164/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Argument assessment can be decomposed into identifying components and their relations, supporting separate claim and support checks.",
+          "locator": "Abstract; component and relation identification",
+          "relationship": "Student essays and model performance are not evidence of this harness's performance. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.2",
+            "1.4",
+            "4.2"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/N16-1164/"
+        }
+      ]
+    },
+    {
+      "id": "R077",
+      "title": "Recommendations for Creating Better Concept Definitions in the Organizational, Behavioral, and Social Sciences",
+      "citation": "Podsakoff, P. M., MacKenzie, S. B., & Podsakoff, N. P. (2016). Recommendations for creating better concept definitions in the organizational, behavioral, and social sciences. Organizational Research Methods, 19(2), 159-203.",
+      "doi": "10.1177/1094428115624965",
+      "source_url": "https://journals.sagepub.com/doi/abs/10.1177/1094428115624965",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The authors explain why clear concept definitions matter and offer recommendations to develop or revise concept domains; this motivates identifying consequential ambiguity in 5.7, but does not validate its exact decision rule.",
+          "locator": "Publisher abstract, paragraphs 1-3; issue contents for pp. 159-203",
+          "relationship": "['Abstract only; no exact definition checklist or chapter-level claim imported.']",
+          "related_checks": [
+            "5.7"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.sagepub.com/doi/abs/10.1177/1094428115624965"
+        }
+      ]
+    },
+    {
+      "id": "R078",
+      "title": "Using Paradox to Build Management and Organization Theories",
+      "citation": "Poole, M. S.; van de Ven, A. H. (1989). Using Paradox to Build Management and Organization Theories. Academy of Management Review, 14(4), 562-578.",
+      "doi": "10.5465/amr.1989.4308389",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308389",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Offers strategies for using theoretical tensions and apparent paradoxes as material for theory building. Contradictory accounts can be productive when their relation is made explicit.",
+          "locator": "abstract, https://www.jstor.org/stable/258559",
+          "relationship": "Does not mean every tension is a defect or must be eliminated.",
+          "related_checks": [
+            "1.7",
+            "2.3",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308389"
+        }
+      ]
+    },
+    {
+      "id": "R079",
+      "title": "Editor's Comments: Reflections on the Craft of Clear Writing",
+      "citation": "Ragins, B. R. (2012). Editor's Comments: Reflections on the Craft of Clear Writing. Academy of Management Review, 37(4), 493-501.",
+      "doi": "10.5465/amr.2012.0165",
+      "source_url": "https://doi.org/10.5465/amr.2012.0165",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Clear writing asks the author to scrutinize words and sentences for meaning and purpose and helps readers follow the reasoning; opaque prose can hide an unclear claim.",
+          "locator": "pp. 494-495 (PDF pp. 2-3), 'What Is Clear Writing?' and 'Foggy Writing'",
+          "relationship": "Supports a material ambiguity check and separate word-choice guidance, not a ban on technical terms or passive voice.",
+          "related_checks": [
+            "4.6",
+            "5.7"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2012.0165"
+        },
+        {
+          "paraphrase": "Reviewers describe ambiguity from stretching a key concept and disjointed passages whose connection readers cannot see.",
+          "locator": "pp. 497-498 (PDF pp. 5-6), 'The Three Pet Peeves'",
+          "relationship": "Related qualitative editorial evidence; exact automated flags are project design.",
+          "related_checks": [
+            "1.5",
+            "3.3",
+            "4.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2012.0165"
+        },
+        {
+          "paraphrase": "The article reports reviewers' concern when a contribution appears only after a long setup; this is audience and outlet advice, not a universal first-sentence rule.",
+          "locator": "p. 498 (PDF p. 6), 'Muddled and Fragmented Stories'",
+          "relationship": "Supports optional structure guidance only.",
+          "related_checks": [
+            "3.1",
+            "2.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2012.0165"
+        }
+      ]
+    },
+    {
+      "id": "R080",
+      "title": "Writing: A method of inquiry",
+      "citation": "Richardson, L., & St. Pierre, E. A. (2005). Writing: A method of inquiry. In N. K. Denzin & Y. S. Lincoln (Eds.), The SAGE handbook of qualitative research (3rd ed., pp. 959-978). SAGE.",
+      "doi": null,
+      "source_url": "https://books.google.com/books/about/The_SAGE_Handbook_of_Qualitative_Researc.html?id=X85J8ipMpZEC",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R081",
+      "title": "Editor's Comments: Publishing Theory When You are New to the Game",
+      "citation": "Rindova, V. P. (2008). Editor's Comments: Publishing Theory When You Are New to the Game. Academy of Management Review, 33(2), 300-303.",
+      "doi": "10.5465/amr.2008.31193160",
+      "source_url": "https://doi.org/10.5465/amr.2008.31193160",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "New ideas need enough linking to current conversations to be understandable, but a literature survey can crowd out the author's own reasoning.",
+          "locator": "pp. 300-301 (PDF pp. 1-2), 'Think Boldly but Respect the Craft and the Guild'",
+          "relationship": "Theory-writing context; does not mandate challenge-of-assumption framing.",
+          "related_checks": [
+            "1.2",
+            "2.1",
+            "5.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2008.31193160"
+        },
+        {
+          "paraphrase": "Revisions that add isolated responses can weaken the coherence of the whole argument; feedback should be integrated into its logic.",
+          "locator": "p. 302 (PDF p. 3), 'Rejoice but Revise'",
+          "relationship": "Supports coherence as an editorial concern; no specific same-parent rule established.",
+          "related_checks": [
+            "1.7",
+            "2.3",
+            "3.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2008.31193160"
+        }
+      ]
+    },
+    {
+      "id": "R082",
+      "title": "Publishing in the Academy of Management Journals",
+      "citation": "Rockmann, K., Bunderson, J. S., Leana, C. R., Hibbert, P., Tihanyi, L., Phan, P. H., & Thatcher, S. M. B. (2021). Publishing in the Academy of Management Journals. Academy of Management Perspectives, 35(2), 165-174.",
+      "doi": "10.5465/amp.2021.0051",
+      "source_url": "https://doi.org/10.5465/amp.2021.0051",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The editors describe multiple legitimate starts to research - phenomenon, intuition, contradictory findings, theory gap, or data - and distinct journal missions.",
+          "locator": "printed pp. 165-166 (PDF pp. 1-2), introduction and 'Knowledge Creation and Dissemination'",
+          "relationship": "Portfolio guidance, not a mandate for one paper form or evidence of checker performance.",
+          "related_checks": [
+            "1.0",
+            "2.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amp.2021.0051"
+        }
+      ]
+    },
+    {
+      "id": "R083",
+      "title": "Issues of level in organizational research: Multi-level and cross-level perspectives",
+      "citation": "Rousseau, D. M. (1985). Issues of level in organizational research: Multi-level and cross-level perspectives. In L. L. Cummings & B. M. Staw (Eds.), Research in Organizational Behavior (Vol. 7, pp. 1-37). JAI Press.",
+      "doi": null,
+      "source_url": "https://www.andrew.cmu.edu/user/rousseau/0_vita/DMR%20VITA1207.pdf",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R084",
+      "title": "Meanings of Theory: Clarifying Theory through Typification",
+      "citation": "Sandberg, J., & Alvesson, M. (2021). Meanings of Theory: Clarifying Theory through Typification. Journal of Management Studies, 58(2), 487-516.",
+      "doi": "10.1111/joms.12587",
+      "source_url": "https://doi.org/10.1111/joms.12587",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The authors distinguish explaining, comprehending, ordering, enacting, and provoking theory by primary purpose while allowing overlap among purposes.",
+          "locator": "accepted manuscript pp. 2, 16 (PDF pp. 3, 17), abstract and 'The typology of theory types'",
+          "relationship": "Supports multiple connected aims and noncausal forms; current harness extension beyond theory papers remains project design.",
+          "related_checks": [
+            "1.0",
+            "1.1",
+            "1.7"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.1111/joms.12587"
+        },
+        {
+          "paraphrase": "Explanatory theory seeks causal understanding, whereas comprehending theory seeks informed meaning and ordering theory constructs useful classifications.",
+          "locator": "accepted manuscript pp. 17-24 (PDF pp. 18-25), sections 'Explaining theory', 'Comprehending theory', 'Ordering theory'",
+          "relationship": "Shows why causal mechanism cannot be a universal criterion.",
+          "related_checks": [
+            "1.4",
+            "1.5",
+            "4.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.1111/joms.12587"
+        },
+        {
+          "paraphrase": "Enacting accounts address the processes through which phenomena are produced; provoking accounts seek to reconsider assumptions and alternative understandings.",
+          "locator": "accepted manuscript pp. 26-31 (PDF pp. 27-32), sections 'Enacting theory', 'Provoking theory'",
+          "relationship": "Supports applying an argument check to the claimed mode, without prescribing a standard section template.",
+          "related_checks": [
+            "1.3",
+            "1.4",
+            "2.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.1111/joms.12587"
+        }
+      ]
+    },
+    {
+      "id": "R085",
+      "title": "Theory Building: A Review and Integration",
+      "citation": "Shepherd, D. A.; Suddaby, R. (2017). Theory Building: A Review and Integration. Journal of Management, 43(1), 59-86.",
+      "doi": "10.1177/0149206316647102",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/0149206316647102",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Reviews theory-building tools through elements of a story, including conflict, character, setting, sequence, and plot. Useful to discuss complementary routes to coherent theoretical explanation.",
+          "locator": "Abstract",
+          "relationship": "Story framing is an organizing analogy, not an exact checklist or proof of checker quality.",
+          "related_checks": [
+            "1.1",
+            "1.7",
+            "2.3",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.sagepub.com/doi/10.1177/0149206316647102"
+        }
+      ]
+    },
+    {
+      "id": "R086",
+      "title": "Persuasion with Case Studies",
+      "citation": "Siggelkow, N. (2007). Persuasion with Case Studies. Academy of Management Journal, 50(1), 20-24.",
+      "doi": "10.5465/amj.2007.24160882",
+      "source_url": "https://journals.aom.org/doi/10.5465/amj.2007.24160882",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "A case can enrich and persuade, while the conceptual argument still needs its own plausible reasoning. Useful for distinguishing illustrative case material from inferential support.",
+          "locator": "discussion of the conceptual argument standing independently of the case",
+          "relationship": "Does not imply case studies are merely illustrative or decide evidence sufficiency.",
+          "related_checks": [
+            "1.3",
+            "1.4",
+            "4.2",
+            "optional:empirical-theory"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amj.2007.24160882"
+        }
+      ]
+    },
+    {
+      "id": "R087",
+      "title": "How to Write a Lot: A Practical Guide to Productive Academic Writing",
+      "citation": "Silvia, P. J. (2018). How to write a lot: A practical guide to productive academic writing (2nd ed.). American Psychological Association.",
+      "doi": null,
+      "source_url": "https://www.apa.org/pubs/books/4441031",
+      "reading_scope": "summary-mediated",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Bookey's summary of Silvia advises reserving recurring writing time, setting concrete session goals, tracking progress, and using writing groups for accountability; its style section briefly discusses clear wording and later revision. These are optional writing-process practices rather than grounds for a core argument-checking criterion.",
+          "locator": "Bookey digest How to Write a Lot PDF.pdf, summary chapters 1-3, PDF pp. 7-18 (extracted-text/How to Write a Lot PDF_pages_0001-0010.txt and pages_0011-0020.txt); summary chapter 4, PDF pp. 20-22 (pages_0011-0020.txt and pages_0021-0030.txt). These are digest PDF pages, not Silvia's printed book pages. APA publisher overview and contents provide separate primary metadata.",
+          "relationship": "Attribute process advice as Silvia (2018) as summarized by Bookey, or cite the Bookey digest alongside APA's book record. Do not imply direct inspection of Silvia's original prose or use digest pages as book pages. No core rule mapping is asserted.",
+          "related_checks": [],
+          "reading_scope": "summary-mediated",
+          "content_url": "https://www.apa.org/pubs/books/4441031"
+        }
+      ]
+    },
+    {
+      "id": "R088",
+      "title": "Read Before You Cite!",
+      "citation": "Simkin, M. V., & Roychowdhury, V. P. (2003). Read before you cite! Complex Systems, 14(3), 269-274.",
+      "doi": "10.25088/complexsystems.14.3.269",
+      "source_url": "https://www.complex-systems.com/abstracts/v14_i03_a05/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Repeated reference-list errors can propagate through copying, motivating verification against the original cited work.",
+          "locator": "Abstract; model based on replicated reference misprints",
+          "relationship": "Its estimate of unread citation frequency is model-dependent and should not be treated as an observed rate or checker validation. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.2",
+            "5.8"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://www.complex-systems.com/abstracts/v14_i03_a05/"
+        }
+      ]
+    },
+    {
+      "id": "R089",
+      "title": "The architecture of complexity",
+      "citation": "Simon, H. A. (1962). The architecture of complexity. Proceedings of the American Philosophical Society, 106(6), 467-482.",
+      "doi": null,
+      "source_url": "https://www.jstor.org/stable/i240648",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "In some hierarchical systems, within-subsystem interactions are stronger than between-subsystem interactions; approximate short-run independence still leaves longer-run cross-system dependence.",
+          "locator": "Printed pp. 474-475, section 'Nearly Decomposable Systems'; PDF pages 7-8.",
+          "relationship": "This concerns complex systems, not text analysis or the harness. It does not establish that checker levels are independent, that gated checking is safe, or that the implementation is efficient. Any use as architecture analogy must be labeled project interpretation.",
+          "related_checks": [],
+          "reading_scope": "selected text",
+          "content_url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R090",
+      "title": "Braddock revisited: The frequency and placement of topic sentences in academic writing",
+      "citation": "Smith, C. G. (2008). Braddock revisited: The frequency and placement of topic sentences in academic writing. The Reading Matrix, 8(1), 78-91.",
+      "doi": null,
+      "source_url": "https://readingmatrix.com/articles/craig_smith/article.pdf",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The placement and unit used to count topic sentences change the result; initial topic statements are useful but neither universal nor adequately judged by first-sentence counting alone.",
+          "locator": "PDF pp. 78, 89-90; American-history article corpus",
+          "relationship": "One American-history corpus; supports a defeasible default, not a universal first-sentence requirement or a defect count. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "3.1",
+            "3.2"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://readingmatrix.com/articles/craig_smith/article.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R091",
+      "title": "Editor's Comments: The Craft of Writing Theory Articles - Variety and Similarity in AMR",
+      "citation": "Smithey Fulmer, I. (2012). Editor's Comments: The Craft of Writing Theory Articles - Variety and Similarity in AMR. Academy of Management Review, 37(3), 327-331.",
+      "doi": "10.5465/amr.2012.0026",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.2012.0026",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Editorial discusses both variety among theory articles and common presentation concerns including title, abstract, and macrostructure. Useful as optional theory-writing guidance.",
+          "locator": "sections 'First Impressions: The Title and Abstract' and 'Macrostructure: Organization'; https://www.jstor.org/stable/23218091",
+          "relationship": "The visible headings do not justify mandatory section order or any exact automated criterion.",
+          "related_checks": [
+            "2.1",
+            "2.4",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.2012.0026"
+        }
+      ]
+    },
+    {
+      "id": "R092",
+      "title": "Redefining Concepts to Build Theory: A Repertoire for Conceptual Innovation",
+      "citation": "Solinger, O. N.; Heusinkveld, S.; Cornelissen, J. P. (2024). Redefining Concepts to Build Theory: A Repertoire for Conceptual Innovation. Human Resource Management Review, 34(1), article 100988.",
+      "doi": "10.1016/j.hrmr.2023.100988",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1053482223000414",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Treats deliberate redefinition of concepts as a route to theoretical innovation. A paper can change a concept's meaning when the move is explained.",
+          "locator": "Abstract",
+          "relationship": "A changed definition is not automatically a contradiction; current rule already allows explained changes.",
+          "related_checks": [
+            "1.5",
+            "optional:construct-clarity"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://www.sciencedirect.com/science/article/pii/S1053482223000414"
+        }
+      ]
+    },
+    {
+      "id": "R093",
+      "title": "Identifying Argumentative Discourse Structures in Persuasive Essays",
+      "citation": "Stab, C., & Gurevych, I. (2014). Identifying argumentative discourse structures in persuasive essays. Proceedings of EMNLP 2014, 46-56.",
+      "doi": "10.3115/v1/d14-1006",
+      "source_url": "https://aclanthology.org/D14-1006/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Argument components and relations between them require distinct identification; missing discourse markers do not by themselves mean absent support.",
+          "locator": "PDF pp. 1-2; identification of components and support relations",
+          "relationship": "Based on persuasive essays, not research theory papers; no checker validation. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.4",
+            "2.5",
+            "4.2"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/D14-1006/"
+        }
+      ]
+    },
+    {
+      "id": "R094",
+      "title": "Parsing Argumentation Structures in Persuasive Essays",
+      "citation": "Stab, C., & Gurevych, I. (2017). Parsing argumentation structures in persuasive essays. Computational Linguistics, 43(3), 619-659.",
+      "doi": "10.1162/coli_a_00295",
+      "source_url": "https://aclanthology.org/J17-3005/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "A written argument can be represented through claims, premises, and relations; checking the relation matters beyond detecting an isolated claim.",
+          "locator": "Abstract; claims, premises, and relations",
+          "relationship": "Essay corpus and parsing method do not imply that all research arguments form the same tree or can be checked reliably. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "1.2",
+            "1.4",
+            "2.5",
+            "4.2"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/J17-3005/"
+        }
+      ]
+    },
+    {
+      "id": "R095",
+      "title": "Generating theory by abduction",
+      "citation": "Sætre, A. S., & Van de Ven, A. H. (2021). Generating theory by abduction. Academy of Management Review, 46(4), 684-701.",
+      "doi": "10.5465/amr.2019.0233",
+      "source_url": "https://doi.org/10.5465/amr.2019.0233",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The authors describe abduction as identifying and confirming an anomaly, then generating and evaluating explanatory hunches; later deduction and induction are distinct activities.",
+          "locator": "manuscript abstract, PDF pp. 1, 3",
+          "relationship": "A theory-generation method, not a rule requiring all papers to begin with an anomaly or use abduction.",
+          "related_checks": [
+            "1.3",
+            "1.4"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://doi.org/10.5465/amr.2019.0233"
+        }
+      ]
+    },
+    {
+      "id": "R096",
+      "title": "Abductive theorizing is more than idea generation: Disciplined imagination and a prepared mind",
+      "citation": "Sætre, A. S., & Van de Ven, A. H. (2024). Abductive theorizing is more than idea generation: Disciplined imagination and a prepared mind. Academy of Management Review, 49(2), 454-457.",
+      "doi": "10.5465/amr.2021.0317",
+      "source_url": "https://doi.org/10.5465/amr.2021.0317",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The reply clarifies that their four-step abductive process is broader than the idea-generation stage; hunches are possible explanations, while disciplined imagination describes the full process.",
+          "locator": "dialogue manuscript p. 2 (PDF p. 3), opening response",
+          "relationship": "Clarifies the authors' own framework; not independent validation of all four steps or a universal drafting requirement.",
+          "related_checks": [
+            "1.3",
+            "1.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0317"
+        }
+      ]
+    },
+    {
+      "id": "R097",
+      "title": "Editor's Comments: Construct Clarity in Theories of Management and Organization",
+      "citation": "Suddaby, R. (2010). Editor's comments: Construct clarity in theories of management and organization. Academy of Management Review, 35(3), 346-357.",
+      "doi": "10.5465/amr.35.3.zok346",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.35.3.zok346",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Suddaby distinguishes construct clarity from construct validity and identifies definitions, scope conditions, relationships to nearby constructs, and coherence with the argument as elements of clarity. This supports examining materially ambiguous concepts while keeping measurement validity outside the clause check.",
+          "locator": "pp. 346-347, What Are Constructs and What Is Construct Clarity?; p. 347, Definitions",
+          "relationship": "['Published-text facsimile at https://www.blacksacademy.net/content/subjectinfo/Constructs/India%20-%20CONSTRUCTS.pdf; publisher article page itself was not fetchable for body text.', 'Specific 5.7 decision wording is project design.']",
+          "related_checks": [
+            "5.7"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.35.3.zok346"
+        }
+      ]
+    },
+    {
+      "id": "R098",
+      "title": "What theory is not",
+      "citation": "Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371-384.",
+      "doi": "10.2307/2393788",
+      "source_url": "https://www.jstor.org/stable/2393788",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The essay distinguishes papers with some theory from those without; this is theory-context background rather than validation of a mechanical contribution test.",
+          "locator": "JSTOR article abstract",
+          "relationship": "['Abstract bounded.']",
+          "related_checks": [
+            "1.0"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://www.jstor.org/stable/2393788"
+        }
+      ]
+    },
+    {
+      "id": "R099",
+      "title": "Genre Analysis: English in Academic and Research Settings",
+      "citation": "Swales, J. M. (1990). Genre analysis: English in academic and research settings. Cambridge University Press.",
+      "doi": null,
+      "source_url": "https://shop.cambridge.org/english/product/2700033225",
+      "reading_scope": "metadata",
+      "provenance": "historical credit",
+      "concepts": []
+    },
+    {
+      "id": "R100",
+      "title": "Stylish Academic Writing",
+      "citation": "Sword, H. (2012). Stylish academic writing. Harvard University Press.",
+      "doi": null,
+      "source_url": "https://www.hup.harvard.edu/books/9780674064485",
+      "reading_scope": "publisher overview",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Publisher describes examples of vivid academic writing across disciplines, offering optional background for a word-choice pass; exact prescriptions not checked.",
+          "locator": "Harvard University Press product description",
+          "relationship": "['No sample section read.']",
+          "related_checks": [
+            "word-choice"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://www.hup.harvard.edu/books/9780674064485"
+        }
+      ]
+    },
+    {
+      "id": "R101",
+      "title": "Summarizing Scientific Articles: Experiments with Relevance and Rhetorical Status",
+      "citation": "Teufel, S., & Moens, M. (2002). Summarizing scientific articles: Experiments with relevance and rhetorical status. Computational Linguistics, 28(4), 409-445.",
+      "doi": "10.1162/089120102762671936",
+      "source_url": "https://aclanthology.org/J02-4002/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Scientific sentences can have distinct rhetorical jobs such as background, goal, method, or result; identifying a sentence's job helps assess its relation to the paper's point.",
+          "locator": "Abstract; rhetorical status of scientific sentences",
+          "relationship": "The article concerns summarization and status labels, not universal placements or source truth. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "2.1",
+            "4.1",
+            "5.1"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/J02-4002/"
+        }
+      ]
+    },
+    {
+      "id": "R102",
+      "title": "Towards domain-independent argumentative zoning: Evidence from chemistry and computational linguistics",
+      "citation": "Teufel, S., Siddharthan, A., & Batchelor, C. (2009). Towards domain-independent argumentative zoning: Evidence from chemistry and computational linguistics. Proceedings of EMNLP 2009, 1493-1502.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/D09-1155/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Scientific papers contain distinguishable argumentative and rhetorical zones; their distribution varies by field, counseling against rigid section templates.",
+          "locator": "Abstract; introduction and rhetorical categories",
+          "relationship": "Empirical annotation across two domains does not establish this harness's exact rules. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "2.1",
+            "2.3",
+            "4.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/D09-1155/"
+        }
+      ]
+    },
+    {
+      "id": "R103",
+      "title": "Automatic classification of citation function",
+      "citation": "Teufel, S., Siddharthan, A., & Tidhar, D. (2006). Automatic classification of citation function. Proceedings of EMNLP 2006, 103-110.",
+      "doi": null,
+      "source_url": "https://aclanthology.org/W06-1613/",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Citations serve distinguishable purposes in scholarly prose; a reference marker alone does not tell whether a claim is background, comparison, use, or criticism.",
+          "locator": "Abstract; citation-function categories",
+          "relationship": "Classification of citation function cannot check cited-source fidelity. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "5.1",
+            "5.3",
+            "5.4"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://aclanthology.org/W06-1613/"
+        }
+      ]
+    },
+    {
+      "id": "R104",
+      "title": "Explanatory coherence",
+      "citation": "Thagard, P. (1989). Explanatory coherence. Behavioral and Brain Sciences, 12(3), 435-467.",
+      "doi": "10.1017/s0140525x00057046",
+      "source_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/explanatory-coherence/E05CB61CD64C26138E794BC601CC9D7A",
+      "reading_scope": "abstract",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The proposed computational model evaluates competing explanatory hypotheses using coherence among propositions, including explanation and contradiction. This is broad reasoning background and does not prescribe written argument structure.",
+          "locator": "Cambridge publisher Abstract and Information sections",
+          "relationship": "['The 435-467 span is target article; commentaries/reply can be counted differently in aggregate page spans.']",
+          "related_checks": [
+            "1.0",
+            "1.7"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/explanatory-coherence/E05CB61CD64C26138E794BC601CC9D7A"
+        }
+      ]
+    },
+    {
+      "id": "R105",
+      "title": "From the Editors - The Nuts and Bolts of Writing a Theory Paper: A Practical Guide to Getting Started",
+      "citation": "Thatcher, S. M. B., & Fisher, G. (2022). From the Editors - The Nuts and Bolts of Writing a Theory Paper: A Practical Guide to Getting Started. Academy of Management Review, 47(1), 1-8.",
+      "doi": "10.5465/amr.2021.0483",
+      "source_url": "https://doi.org/10.5465/amr.2021.0483",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Their exercises may be completed in different orders and revisited as an argument develops, so the source does not warrant one mandatory section sequence.",
+          "locator": "submitted manuscript p. 3 (PDF p. 4), caveats before Exercise 1",
+          "relationship": "Supports allowing variable order; the harness's dependency check remains project interpretation.",
+          "related_checks": [
+            "2.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0483"
+        },
+        {
+          "paraphrase": "The theory-building apparatus asks for question, mode, analysis level, phenomenon, mechanisms, constructs, boundaries, and intended kind of output, while noting that some components may not apply.",
+          "locator": "submitted manuscript pp. 6-8 (PDF pp. 7-9), Exercise 2",
+          "relationship": "Theory-paper context only; no universal requirement to draw causal arrows or supply a mechanism for every argument.",
+          "related_checks": [
+            "1.0",
+            "1.4",
+            "1.6"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0483"
+        },
+        {
+          "paraphrase": "Different theoretical styles call for different visuals; propositions, process flows, and typologies are offered as examples.",
+          "locator": "submitted manuscript pp. 9-10 (PDF pp. 10-11), Exercise 4",
+          "relationship": "Supports plural format and role mapping, not a required figure or proposition placement.",
+          "related_checks": [
+            "1.0",
+            "2.1",
+            "2.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.5465/amr.2021.0483"
+        }
+      ]
+    },
+    {
+      "id": "R106",
+      "title": "Writing Integrative Literature Reviews: Guidelines and Examples",
+      "citation": "Torraco, R. J. (2005). Writing Integrative Literature Reviews: Guidelines and Examples. Human Resource Development Review, 4(3), 356-367.",
+      "doi": "10.1177/1534484305278283",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/1534484305278283",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Explains the purpose and preparation of integrative literature reviews that synthesize existing work to generate new understanding.",
+          "locator": "Abstract",
+          "relationship": "Review-method guidance does not turn synthesis into a required genre or validate source coverage.",
+          "related_checks": [
+            "1.1",
+            "2.4",
+            "optional:literature-synthesis"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.sagepub.com/doi/10.1177/1534484305278283"
+        }
+      ]
+    },
+    {
+      "id": "R107",
+      "title": "The Uses of Argument",
+      "citation": "Toulmin, S. E. (2003). The uses of argument (Updated ed.; original work published 1958). Cambridge University Press.",
+      "doi": "10.1017/cbo9780511840005",
+      "source_url": "https://www.cambridge.org/core/books/uses-of-argument/26CF801BC12004587B66778297D5567C",
+      "reading_scope": "public excerpt",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The opening distinguishes the broad phases of an argument from finer relations within paragraphs and sentences, and treats the finer analysis in the context of the larger structure.",
+          "locator": "Chapter III, The Layout of Arguments, opening paragraphs; chapter spans pp. 87-134 in the 2003 edition.",
+          "relationship": "One work across 1958/2003 editions; the original historical credit did not establish the edition read. This newly inspected opening does not verify the data/warrant/qualifier passages or prescribe the harness's five levels, gating, or independence.",
+          "related_checks": [
+            "1.0",
+            "2.2",
+            "3.2",
+            "4.1"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://www.cambridge.org/core/books/abs/uses-of-argument/layout-of-arguments/0CF09834F2802518330E754858CC0655"
+        }
+      ]
+    },
+    {
+      "id": "R108",
+      "title": "Explaining Development and Change in Organizations",
+      "citation": "van de Ven, A. H.; Poole, M. S. (1995). Explaining Development and Change in Organizations. Academy of Management Review, 20(3), 510-540.",
+      "doi": "10.5465/amr.1995.9508080329",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1995.9508080329",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Presents four basic process theories as building blocks for explaining organizational change. Useful for recognizing alternative temporal mechanisms and their combinations.",
+          "locator": "abstract, https://www.jstor.org/stable/258786",
+          "relationship": "Its four change models are not required categories for all theory papers.",
+          "related_checks": [
+            "1.4",
+            "1.7",
+            "optional:process-theory"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1995.9508080329"
+        }
+      ]
+    },
+    {
+      "id": "R109",
+      "title": "A Systematic Theory of Argumentation: The pragma-dialectical approach",
+      "citation": "van Eemeren, F. H., & Grootendorst, R. (2003). A systematic theory of argumentation: The pragma-dialectical approach. Cambridge University Press.",
+      "doi": "10.1017/cbo9780511616389",
+      "source_url": "https://www.cambridge.org/core/books/systematic-theory-of-argumentation/C3A069AB7E067D451BE58744A444B570",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Assessment reconstructs the standpoint at issue and how reasons answer a challenge, grounding intelligible purposes, premises, and relations.",
+          "locator": "Book description: disputed positions, critical discussion, reconstruction; print date 2003",
+          "relationship": "Critical discussion is a theoretical lens, not a required monologic-paper form. Publisher print year is 2003, although some bibliographies say 2004. No checker validation.",
+          "related_checks": [
+            "1.1",
+            "1.2",
+            "1.4",
+            "1.7"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://www.cambridge.org/core/books/systematic-theory-of-argumentation/C3A069AB7E067D451BE58744A444B570"
+        }
+      ]
+    },
+    {
+      "id": "R110",
+      "title": "Speculation and Negation: Rules, Rankers, and the Role of Syntax",
+      "citation": "Velldal, E., Øvrelid, L., Read, J., & Oepen, S. (2012). Speculation and negation: Rules, rankers, and the role of syntax. Computational Linguistics, 38(2), 369-410.",
+      "doi": "10.1162/coli_a_00126",
+      "source_url": "https://aclanthology.org/J12-2005/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Finding a hedge or negation is separate from determining which proposition it modifies, making clause-level scope checks substantively distinct.",
+          "locator": "PDF pp. 1, 38; cue detection versus scope resolution",
+          "relationship": "Biomedical NLP task; no evidence that this harness resolves scope correctly. Motivates the criterion or distinction only; it does not prove this harness's rule wording, semantic judgments, or checker accuracy.",
+          "related_checks": [
+            "4.4",
+            "5.2",
+            "5.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://aclanthology.org/J12-2005/"
+        }
+      ]
+    },
+    {
+      "id": "R111",
+      "title": "Phenomenon-based Research in Management and Organisation Science: When is it Rigorous and Does it Matter?",
+      "citation": "von Krogh, G., Rossi-Lamastra, C., & Haefliger, S. (2012). Phenomenon-based research in management and organisation science: When is it rigorous and does it matter? Long Range Planning, 45(4), 277-298.",
+      "doi": "10.1016/j.lrp.2012.05.001",
+      "source_url": "https://openaccess.city.ac.uk/id/eprint/5956/",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "Phenomenon-based inquiry first identifies, describes, and documents observed patterns; the resulting facts and concepts can then prompt explanatory theorizing. It explicitly allows valuable work before a full theory or specific hypotheses exist.",
+          "locator": "Accepted-manuscript PDF pages 1-4 (abstract, introduction, and characterizing phenomena); no final published-page locator asserted.",
+          "relationship": "Supports distinguishing observed material from later explanation in this research mode. It does not demand empirical observation for every argument or evaluate the truth of observations. Accepted version, not final publisher text.",
+          "related_checks": [
+            "1.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://openaccess.city.ac.uk/id/eprint/5956/1/vonKroghRossiLamastraHaefligerLRP12_preprint.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R112",
+      "title": "Informal Logic: A Pragmatic Approach",
+      "citation": "Walton, D. (2008). Informal logic: A pragmatic approach (2nd ed.). Cambridge University Press.",
+      "doi": "10.1017/cbo9780511808630",
+      "source_url": "https://www.cambridge.org/core/books/informal-logic/B760E514F6559E92A9BED28162ACDF32",
+      "reading_scope": "publisher overview",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Reasons must serve their claim in context and remain responsive to criticism; premise-like words alone cannot establish support.",
+          "locator": "Book description: construction, criticism, fallacies, critical responses",
+          "relationship": "Illustrative cases do not establish a universal textual test or validate this checker.",
+          "related_checks": [
+            "1.4",
+            "1.6",
+            "4.2"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://www.cambridge.org/core/books/informal-logic/B760E514F6559E92A9BED28162ACDF32"
+        }
+      ]
+    },
+    {
+      "id": "R113",
+      "title": "Argumentation Schemes",
+      "citation": "Walton, D., Reed, C., & Macagno, F. (2008). Argumentation schemes. Cambridge University Press.",
+      "doi": "10.1017/cbo9780511802034",
+      "source_url": "https://www.cambridge.org/core/books/argumentation-schemes/9AE7E4E6ABDE690565442B2BD516A8B6",
+      "reading_scope": "publisher overview",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Defeasible reasoning can be assessed by identifying the inferential move connecting reasons to a claim; analogy, classification, or causation may require an explicit bridge.",
+          "locator": "Book description: 96 schemes and their analysis",
+          "relationship": "No manuscript must name a scheme, and the description does not validate this checker.",
+          "related_checks": [
+            "1.4",
+            "1.6",
+            "4.4"
+          ],
+          "reading_scope": "publisher overview",
+          "content_url": "https://www.cambridge.org/core/books/argumentation-schemes/9AE7E4E6ABDE690565442B2BD516A8B6"
+        }
+      ]
+    },
+    {
+      "id": "R114",
+      "title": "Analyzing the past to prepare for the future: Writing a literature review",
+      "citation": "Webster, J., & Watson, R. T. (2002). Analyzing the past to prepare for the future: Writing a literature review. MIS Quarterly, 26(2), xiii-xxiii.",
+      "doi": null,
+      "source_url": "https://aisel.aisnet.org/misq/vol26/iss2/3/",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "A literature review can organize prior work by concepts and preserve the units at which those concepts operate. When it advances propositions, their relationships require explicit logical justification; related empirical work should be characterized according to its actual reach.",
+          "locator": "Printed pp. xvi-xviii (concept-based synthesis and levels of analysis), xix (justifying propositions); PDF pages 3-6.",
+          "relationship": "Advice concerns review/theory manuscripts; the staged rules' format-neutral and conditional inference tests are project generalizations. This source does not justify a best-source ranking or source count under 5.6.",
+          "related_checks": [
+            "2.5",
+            "5.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://web.njit.edu/~egan/Writing_A_Literature_Review.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R115",
+      "title": "Theory Construction as Disciplined Imagination",
+      "citation": "Weick, K. E. (1989). Theory Construction as Disciplined Imagination. Academy of Management Review, 14(4), 516-531.",
+      "doi": "10.5465/amr.1989.4308376",
+      "source_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308376",
+      "reading_scope": "public excerpt",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Treats theory construction as an imaginative but disciplined process, with iterative representation and selection of ideas. Helpful for allowing multiple coherent explanatory forms.",
+          "locator": "publisher article opening; JSTOR https://www.jstor.org/stable/258556",
+          "relationship": "Does not imply one prescribed architecture or validate any automated logical check.",
+          "related_checks": [
+            "1.0",
+            "1.4",
+            "optional:theory-genre"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308376"
+        }
+      ]
+    },
+    {
+      "id": "R116",
+      "title": "What Constitutes a Theoretical Contribution?",
+      "citation": "Whetten, D. A. (1989). What constitutes a theoretical contribution? Academy of Management Review, 14(4), 490-495.",
+      "doi": "10.5465/amr.1989.4308371",
+      "source_url": "https://journals.aom.org/doi/abs/10.5465/amr.1989.4308371",
+      "reading_scope": "selected text",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "For theory development, identify the relevant concepts, their proposed relations, the rationale for those relations, and contextual limits. The text distinguishes descriptive elements of a model from the explanation that connects them and cautions that propositions are not required for every legitimate theory paper.",
+          "locator": "Printed pp. 490-492, especially What/How/Why/Who-Where-When discussion; PDF pages 0-2.",
+          "relationship": "The staged rules cover theoretical, empirical, descriptive, normative, and mixed arguments. Whetten's theory-paper guidance is contextual background; it does not require causal arrows or hypotheses in every draft. Current 1.5 consistent-meaning criterion was not directly established by the inspected passage.",
+          "related_checks": [
+            "1.0",
+            "1.4",
+            "1.6"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://assets.super.so/6b4b5d92-904a-4e7b-95bd-914dd1d1528f/files/eac4e1cb-678b-46b6-9b12-ded2251d1b94.pdf"
+        },
+        {
+          "paraphrase": "The editorial addresses how a theory is developed and what constitutes a contribution; broad context only, with no passage-specific rule conclusion in this pass.",
+          "locator": "AOM article abstract",
+          "relationship": "['Abstract bounded; exact what/how/why passage not inspected.']",
+          "related_checks": [
+            "1.0",
+            "1.5"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.aom.org/doi/abs/10.5465/amr.1989.4308371"
+        }
+      ]
+    },
+    {
+      "id": "R117",
+      "title": "Style: Lessons in Clarity and Grace",
+      "citation": "Williams, J. M., & Bizup, J. (2021). Style: Lessons in clarity and grace (13th ed.). Pearson.",
+      "doi": null,
+      "source_url": "https://www.pearsonhighered.com/assets/preface/0/1/3/5/0135163757.pdf",
+      "reading_scope": "public excerpt",
+      "provenance": "historical credit",
+      "concepts": [
+        {
+          "paraphrase": "The preface frames style as informed choices that anticipate readers' responses and emphasizes avoiding misleading or unnecessarily obscure expression.",
+          "locator": "Preface pp. v-vii; contents pp. iii-iv list lessons on actions, characters, cohesion/coherence, document framing and section framing.",
+          "relationship": "Broad reader-oriented rationale only. Exact lesson passages for actor/action and cohesion remain uninspected. This is a verified current edition, not a claim about the edition historically consulted.",
+          "related_checks": [
+            "4.6",
+            "5.7"
+          ],
+          "reading_scope": "public excerpt",
+          "content_url": "https://www.pearsonhighered.com/assets/preface/0/1/3/5/0135163757.pdf"
+        }
+      ]
+    },
+    {
+      "id": "R118",
+      "title": "The Elements of Style",
+      "citation": "William Strunk Jr.; E. B. White (1999). The Elements of Style. (4th ed.).",
+      "doi": null,
+      "source_url": "https://www.pearson.com/en-au/subject-catalog/p/elements-of-style-the/P200000002160/9780205309023",
+      "reading_scope": "selected text",
+      "provenance": "documented attribution",
+      "concepts": [
+        {
+          "paraphrase": "A paragraph ordinarily treats a topic and its opening can signal a new step; the opening may instead transition, and the topic may emerge after introductory material. This supports identifying the paragraph point from the full paragraph while treating topic-first placement as defeasible guidance.",
+          "locator": "Chapter II, rule 13, PDF pages 22-23",
+          "relationship": "The staged rule's policy_note/SUGGEST handling is project policy, not a claim made by the book. The book does not require every claim to be in the first sentence.",
+          "related_checks": [
+            "3.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.pearson.com/en-au/subject-catalog/p/elements-of-style-the/P200000002160/9780205309023"
+        },
+        {
+          "paraphrase": "Paragraphs divide a subject into intelligible steps; sentences in a paragraph should contribute to it. This is a modest composition rationale for checking whether material serves the paragraph point.",
+          "locator": "Chapter II, rule 13, PDF pages 22-23, and rule 17, PDF page 28; same PDF and extracted-text pages_0021-0030.txt",
+          "relationship": "The source supplies prose guidance, not the staged rule's logical test, finding thresholds, or treatment of necessary context. Do not equate concise prose with supported inference.",
+          "related_checks": [
+            "4.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.pearson.com/en-au/subject-catalog/p/elements-of-style-the/P200000002160/9780205309023"
+        },
+        {
+          "paraphrase": "The active/passive contrast illustrates how omitting an agent can leave the actor uncertain; the same discussion explicitly allows passive voice when it fits the paragraph's subject or purpose.",
+          "locator": "Chapter II, rule 14, PDF page 24; same PDF and extracted-text pages_0021-0030.txt",
+          "relationship": "Supports asking who acts when the difference changes meaning. It does not support flagging passive voice as a defect by itself, which the staged rule already excludes.",
+          "related_checks": [
+            "4.6"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.pearson.com/en-au/subject-catalog/p/elements-of-style-the/P200000002160/9780205309023"
+        },
+        {
+          "paraphrase": "Word placement can make the relationships among terms ambiguous. This aligns narrowly with asking about materially different interpretations of a clause.",
+          "locator": "Chapter II, rule 20, PDF page 31; extracted-text/Strunk & White - The Elements of Style, 4th Edition_pages_0031-0040.txt",
+          "relationship": "The book's example concerns sentence-level modifier placement; the harness restricts this rule to ambiguity that changes reasoning, not generic copyediting.",
+          "related_checks": [
+            "5.7"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.pearson.com/en-au/subject-catalog/p/elements-of-style-the/P200000002160/9780205309023"
+        },
+        {
+          "paraphrase": "The book favors specific, concrete expression and words that carry information without padding; accurate nouns and verbs often convey meaning more directly.",
+          "locator": "Chapter II, rules 16-17, PDF pages 26-28; Chapter V, reminder 4, PDF page 65; same PDF, extracted-text pages_0021-0030.txt and pages_0061-0070.txt",
+          "relationship": "This supports optional surface-wording guidance, not an automatic logical failure. Rule W.3's supported-strength component also requires context beyond style preference.",
+          "related_checks": [
+            "W.3"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.pearson.com/en-au/subject-catalog/p/elements-of-style-the/P200000002160/9780205309023"
+        }
+      ]
+    },
+    {
+      "id": "R119",
+      "title": "The Decline of Conceptual Articles and Implications for Knowledge Development",
+      "citation": "Yadav, M. S. (2010). The Decline of Conceptual Articles and Implications for Knowledge Development. Journal of Marketing, 74(1), 1-19.",
+      "doi": "10.1509/jmkg.74.1.1",
+      "source_url": "https://journals.sagepub.com/doi/10.1509/jmkg.74.1.1",
+      "reading_scope": "abstract",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "Examines conceptual articles' role in marketing knowledge development and documents their decline in a journal sample. Supports preserving space for conceptual genres.",
+          "locator": "Abstract",
+          "relationship": "Field-level publication trend is not evidence for any sentence-level checker rule.",
+          "related_checks": [
+            "optional:theory-genre"
+          ],
+          "reading_scope": "abstract",
+          "content_url": "https://journals.sagepub.com/doi/10.1509/jmkg.74.1.1"
+        }
+      ]
+    },
+    {
+      "id": "R120",
+      "title": "Understanding the Coleman boat",
+      "citation": "Ylikoski, P. (2021). Understanding the Coleman boat. In G. Manzo (Ed.), Research Handbook on Analytical Sociology (pp. 49-63). Edward Elgar.",
+      "doi": "10.4337/9781789906851.00008",
+      "source_url": "https://doi.org/10.4337/9781789906851.00008",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The diagram separates macro antecedent, agent situation, agent action, and macro outcome; explanatory steps across levels must be specified rather than assumed.",
+          "locator": "author chapter pp. 3-4 (PDF pp. 4-5), sec. 2.1 'The Nodes'",
+          "relationship": "Direct conceptual example for a multilevel causal claim; not a universal structure for all arguments.",
+          "related_checks": [
+            "1.4",
+            "5.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.4337/9781789906851.00008"
+        },
+        {
+          "paraphrase": "The arrows represent explanatory dependencies, and the chapter distinguishes knowing a dependency from knowing all its mechanisms; full details may be unavailable.",
+          "locator": "author chapter pp. 4-5 (PDF pp. 5-6), sec. 2.2 'The Arrows'",
+          "relationship": "Supports requiring a bridge for causal conclusions while leaving absent design assumptions indeterminate.",
+          "related_checks": [
+            "1.4",
+            "1.6",
+            "4.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.4337/9781789906851.00008"
+        },
+        {
+          "paraphrase": "The three arrows pose distinct questions about macro influence on agents, agent behavior, and aggregation to macro consequences.",
+          "locator": "author chapter pp. 5-6 (PDF pp. 6-7), secs. 2.2-2.3",
+          "relationship": "Useful diagnostic prompts when a draft itself makes cross-level causal claims.",
+          "related_checks": [
+            "1.4",
+            "5.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://doi.org/10.4337/9781789906851.00008"
+        }
+      ]
+    },
+    {
+      "id": "R121",
+      "title": "Tips to Article-Writers",
+      "citation": "Zuckerman, E. W. (2008, February 6). Tips to Article-Writers. MIT Sloan author guidance.",
+      "doi": null,
+      "source_url": "https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=7627",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "The reader should be able to follow how sentences serve an article's overall question and narrative arc.",
+          "locator": "p. 3, tip 9 'Orient the reader'",
+          "relationship": "Related reader guidance, not an exact sentence-level algorithm.",
+          "related_checks": [
+            "2.1",
+            "3.2",
+            "4.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=7627"
+        },
+        {
+          "paraphrase": "One or a few tightly related hypotheses may be enough; background literature is most useful where it serves the paper's question.",
+          "locator": "pp. 2-3, tips 6 and 10",
+          "relationship": "Opinionated genre advice; cannot require a single point or ban literature-review sections.",
+          "related_checks": [
+            "1.1",
+            "2.1",
+            "2.5"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=7627"
+        }
+      ]
+    },
+    {
+      "id": "R122",
+      "title": "On Genre: A Few More Tips to Article-Writers",
+      "citation": "Zuckerman, E. W. (2017, August 25 revision). On Genre: A Few More Tips to Article-Writers. MIT Sloan author guidance.",
+      "doi": null,
+      "source_url": "https://mitmgmtfaculty.mit.edu/esivan/other/",
+      "reading_scope": "selected text",
+      "provenance": "new supporting source",
+      "concepts": [
+        {
+          "paraphrase": "An article's contribution and organization depend on its genre; even within empirical puzzle papers the author distinguishes several framings.",
+          "locator": "pp. 1-5, introduction and genres 1-4",
+          "relationship": "Genre-specific author advice; supports avoiding one mandatory framing across papers.",
+          "related_checks": [
+            "1.1",
+            "2.1"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.dropbox.com/s/a3n1ux6lnu7wbpe/On%20Genre.pdf?dl=1"
+        },
+        {
+          "paraphrase": "A known puzzle, a newly noticed puzzle, and a previously unnoticed gap in explanatory warrant require different ways of connecting the question to prior theory.",
+          "locator": "pp. 2-5, genres 1-4",
+          "relationship": "Useful examples for theory-paper context, not a general requirement to find a puzzle.",
+          "related_checks": [
+            "1.2",
+            "1.3",
+            "1.4"
+          ],
+          "reading_scope": "selected text",
+          "content_url": "https://www.dropbox.com/s/a3n1ux6lnu7wbpe/On%20Genre.pdf?dl=1"
+        }
+      ]
+    }
+  ]
+}

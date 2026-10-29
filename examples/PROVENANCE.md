@@ -1,0 +1,7 @@
+# Synthetic fixture provenance
+
+`sample-draft.md` and `sample-draft-v2.md` explicitly state that their argument, cases and sources are invented. Their original local Git entries dated 2026-09-26 contain that notice, and the current file contents are unchanged from those entries. `pilot-sources.md` was added on 2026-10-03 and explicitly defines invented source records for that toy world. It was added after existing demonstration reports and is not held-out material.
+
+The citation names Avery, Brandt, Cole, Dorsey and Evers in these fixtures denote invented works. They are not literature evidence. Test report constants use this fictional text or explicitly invented lantern/harbor/quiet-interval sections. These files contain no reviewed manuscript excerpt. The current project and personal templates are blank optional context guidance.
+
+Only the three fixture inputs are included. Historical model reports, output folders, evaluation scores, manuscripts and PDFs are excluded. The fixtures can support an engineering smoke test and a future clearly labeled development example; they cannot establish independent benchmark accuracy. Provenance notices and origin comparisons establish declared synthetic lineage, not legal ownership clearance. The author has approved release of project-owned fixtures under the [MIT license](../LICENSE); [third-party rights](../THIRD-PARTY-NOTICES.md) remain separate.

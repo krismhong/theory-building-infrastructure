@@ -1,0 +1,84 @@
+{
+  "checked_on": "2026-10-20",
+  "ruleset": "core-v2.1-2026-10-10",
+  "scope": "Offline documentation and package-integrity checks, with separately recorded public-source identity verification.",
+  "unique_work_identities": 122,
+  "works_from_authorized_collections": 26,
+  "reading_scope_counts": {
+    "selected text": 40,
+    "companion guidance": 2,
+    "abstract": 39,
+    "publisher overview": 8,
+    "public excerpt": 23,
+    "summary-mediated": 2,
+    "metadata": 8
+  },
+  "provenance_counts": {
+    "new supporting source": 79,
+    "historical credit": 40,
+    "documented attribution": 2,
+    "prior supporting source": 1
+  },
+  "doi_records_independently_crosschecked": 93,
+  "local_markdown_links_checked": 92,
+  "local_link_errors": [],
+  "core_check_text_preserved": [
+    {
+      "file": "levels/level-1-conceptual.md",
+      "check_text_unchanged": true,
+      "previous_file_sha256": "54c9b88eb926448fae58e7d8c44d4a0d4746a051563536970612e8ed5b105735",
+      "current_file_sha256": "0b408cbe3e01e43349e2a2463caed287846ee6be2e5ead66bf440a07558725dc"
+    },
+    {
+      "file": "levels/level-2-heading.md",
+      "check_text_unchanged": true,
+      "previous_file_sha256": "eac70a76e99f580da5e712c24708e20241c57a55be74137140a498aaed716f1c",
+      "current_file_sha256": "e8ccb06feb615d91207ae844e907948c4f7b60c077eeb4aacc2402c6957881e6"
+    },
+    {
+      "file": "levels/level-3-paragraph.md",
+      "check_text_unchanged": true,
+      "previous_file_sha256": "98b4cae02eaa4594e92c0b47e0f2564a7f63cd10c9cd670301e80f998d63eb0b",
+      "current_file_sha256": "355f9029f1a18e7d4ed1657b7f6f31e64c335ace1e327dba6844f1b646667f10"
+    },
+    {
+      "file": "levels/level-4-sentence.md",
+      "check_text_unchanged": true,
+      "previous_file_sha256": "6e9ae63957d5fbc0b886c83fd25e3dbb901fceba6a34fc091029ff0acf4c42a1",
+      "current_file_sha256": "603e4749f24d727f745c94444aa329d7272976adc5785563d789d8a17a2a0022"
+    },
+    {
+      "file": "levels/level-5-clause.md",
+      "check_text_unchanged": true,
+      "previous_file_sha256": "7852d18be8a4525daf97eeb475a2b33b9fd7c63ce31c6812ea7f0e9efdce13b9",
+      "current_file_sha256": "735abaa693af4e6e8fd41cf124a3b67c7ebeb6460545bbe38fe10723de761073"
+    }
+  ],
+  "unchanged_executable_and_checker_files_checked": 26,
+  "historical_ruleset_definitions_unchanged": true,
+  "targeted_private_path_and_internal_preamble_scan_passed": true,
+  "source_documents_added": 0,
+  "api_evaluation_calls": 0,
+  "private_paper_evaluations": 0,
+  "new_semantic_validation": false,
+  "synthetic_bundle_smoke": {
+    "status": "passed",
+    "jobs": 5,
+    "api_calls": 0,
+    "ruleset_receipt": {
+      "id": "core-v2.1-2026-10-10",
+      "definitions": {
+        "checker/CHECKER.md": "50b26f55ed83d34a8c4d5a480807980a551f3adfa16311563584ea6d0eede70e",
+        "checker/FLAG-FORMAT.md": "a9a2c4000a7d4b28ce179931d1fb148f7e4a1d7eca776046dc969f36c9da44a4",
+        "levels/level-1-conceptual.md": "0b408cbe3e01e43349e2a2463caed287846ee6be2e5ead66bf440a07558725dc",
+        "levels/level-2-heading.md": "e8ccb06feb615d91207ae844e907948c4f7b60c077eeb4aacc2402c6957881e6",
+        "levels/level-3-paragraph.md": "355f9029f1a18e7d4ed1657b7f6f31e64c335ace1e327dba6844f1b646667f10",
+        "levels/level-4-sentence.md": "603e4749f24d727f745c94444aa329d7272976adc5785563d789d8a17a2a0022",
+        "levels/level-5-clause.md": "735abaa693af4e6e8fd41cf124a3b67c7ebeb6460545bbe38fe10723de761073",
+        "levels/word-choice-pass.md": "c8db57b49f3d32ec314e1a8fed91f3a80e7a809722c145b3ab794decab9a8a22"
+      }
+    }
+  },
+  "limitations": "Source identity and bounded content readings do not validate decisions, accuracy, independence, efficiency, or training. External URL availability was not exhaustively retested by this offline check.",
+  "status": "passed"
+}

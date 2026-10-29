@@ -1,0 +1,261 @@
+{
+  "generated_on": "2026-10-29",
+  "ruleset": "core-v2.1-2026-10-10",
+  "status": "Content manifest",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "98a0d70e9936c2e1390e87b76e7cf3a8c49c96d093df91790d54809a43c1e950"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5920cd36d448c3bc6bb5fdd6cb31339310ea50cdebc8dd944e11f960b9301266"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "3c82119a600804143f71699f0c2b2eb4435fc49188bebf9de5b80c665fe42cca"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e36b701bdad5cc47d1dd348ba34e75bd7c7f5cbf5a30e29a042335192c3e6b19"
+    },
+    {
+      "path": "README.md",
+      "sha256": "95c32edbfaafbb64ab36b2408f429cb98085bf3f312faefc17bfc5d90602d0d8"
+    },
+    {
+      "path": "REVIEWER-GUIDE.md",
+      "sha256": "e217a70e1d81ab234d63d5b66aa2cb86f43a43d50600fcd7150dba67f991b01a"
+    },
+    {
+      "path": "RUN-COMPLETENESS.md",
+      "sha256": "ad01cf199a9b1c082107683928601806275b8dcb39e5c78d0c2d845832e71a15"
+    },
+    {
+      "path": "SOURCE-BIBLIOGRAPHY.md",
+      "sha256": "eb12a4ec827f4ca41f6ec307de0953f41ce327f298d85db7eae039a760e23b75"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "97e25c53128ac5bd476d46be7d3e4f3cd74969ef710969184d1c89099fbed871"
+    },
+    {
+      "path": "checker/ANSWERING.md",
+      "sha256": "6020e963caa3a9ffb90f589afe1acfbb94448e7eaa93af8fac92423f38c2381f"
+    },
+    {
+      "path": "checker/CHECKER.md",
+      "sha256": "50b26f55ed83d34a8c4d5a480807980a551f3adfa16311563584ea6d0eede70e"
+    },
+    {
+      "path": "checker/CONFERRING.md",
+      "sha256": "467e94a823ecff4d218375eeaa91221fbdc6677d9d1f32da8f4dfff3b22d355c"
+    },
+    {
+      "path": "checker/FLAG-FORMAT.md",
+      "sha256": "a9a2c4000a7d4b28ce179931d1fb148f7e4a1d7eca776046dc969f36c9da44a4"
+    },
+    {
+      "path": "evidence/README.md",
+      "sha256": "fb53d91396aef9ece34a1d52d0dff6f20334e823ae1e1684e8065d575ef9506f"
+    },
+    {
+      "path": "evidence/SOURCE-REGISTER.json",
+      "sha256": "2588659e92971490951cc26ad81acd4e87c84745432cd3f2ae259881591c3b50"
+    },
+    {
+      "path": "evidence/contamination-checks.json",
+      "sha256": "2a14297d739df22ca15cf4aa86b05ebc04bdb9cc7d6051299c757683d9b5be3e"
+    },
+    {
+      "path": "evidence/newcomer-dry-run.json",
+      "sha256": "d64ba9bfb3e47da9d229a50fa990feef3b7b739cae604755a0c7556dbc92ef78"
+    },
+    {
+      "path": "evidence/offline-checks.json",
+      "sha256": "df597b9b7012af2ebe5b3909a10582a22eb2b96db88a538e768988cd5bcb1ee7"
+    },
+    {
+      "path": "evidence/reliability-checks-2026-10-21.json",
+      "sha256": "5479649818affc09abbd43956b8c8332982a204cb4fe9703997ac3e915a3b845"
+    },
+    {
+      "path": "evidence/source-grounding-checks.json",
+      "sha256": "5b6fe17e936cb7503f3fed63561490403bcd764c1cccc2c17c4f54f930142192"
+    },
+    {
+      "path": "evidence/submission-checks-2026-10-29.json",
+      "sha256": "0871e032db9f8d7eee7f917bf748d846eb44ed40acfdcb07fd4be2a14e782d58"
+    },
+    {
+      "path": "examples/PROVENANCE.md",
+      "sha256": "3c3eeb0889d837506bd3b55c981470d9f0227a31e6e3f4bce3dc5f40d73bb4e3"
+    },
+    {
+      "path": "examples/pilot-sources.md",
+      "sha256": "5998335cad17fbfa017075dd79aa7ceaad36d669381536ea181bda7c05706ddd"
+    },
+    {
+      "path": "examples/sample-draft-v2.md",
+      "sha256": "0a5127723d25d729b37c7c9803007d876f57577ca8ce48e5231061a8e06ad8ba"
+    },
+    {
+      "path": "examples/sample-draft.md",
+      "sha256": "5f9cbbbe95c1a0b427292b91c43be417329c7bd7417010fe1c93eed63540ed9f"
+    },
+    {
+      "path": "genres/README.md",
+      "sha256": "c961dc61cc6c136cf7044cadb0eec947ceadb6b08ab31b43ac637ee2fb1bd35d"
+    },
+    {
+      "path": "genres/empirical-paper.md",
+      "sha256": "38bbb09f2176ae7b67846b9341201ca83c71fa973c58df35ae27d254682b529c"
+    },
+    {
+      "path": "genres/theory-paper.md",
+      "sha256": "72a2712bddb7567c3974f420991e24cb5a6786788d775bd0735d210806ef7ee8"
+    },
+    {
+      "path": "levels/README.md",
+      "sha256": "ea888f524a02360bf0743088bd8871554fd63fb9026746b1b0a28fa6e9d12c5b"
+    },
+    {
+      "path": "levels/RULESET.md",
+      "sha256": "b680daca183b10bf2602c212923ccfb709ad0f53d0412eb25fb5843797630ee2"
+    },
+    {
+      "path": "levels/SOURCES.md",
+      "sha256": "713a64492d801272348aee8d32eceef8dfb12c040c76c90e57d53f32da333893"
+    },
+    {
+      "path": "levels/level-1-conceptual.md",
+      "sha256": "0b408cbe3e01e43349e2a2463caed287846ee6be2e5ead66bf440a07558725dc"
+    },
+    {
+      "path": "levels/level-2-heading.md",
+      "sha256": "e8ccb06feb615d91207ae844e907948c4f7b60c077eeb4aacc2402c6957881e6"
+    },
+    {
+      "path": "levels/level-3-paragraph.md",
+      "sha256": "355f9029f1a18e7d4ed1657b7f6f31e64c335ace1e327dba6844f1b646667f10"
+    },
+    {
+      "path": "levels/level-4-sentence.md",
+      "sha256": "603e4749f24d727f745c94444aa329d7272976adc5785563d789d8a17a2a0022"
+    },
+    {
+      "path": "levels/level-5-clause.md",
+      "sha256": "735abaa693af4e6e8fd41cf124a3b67c7ebeb6460545bbe38fe10723de761073"
+    },
+    {
+      "path": "levels/word-choice-pass.md",
+      "sha256": "70a3edcc6ca43df538243eab98c61948c296f5d8c06c0b1c1c7737dc3b6ac4d5"
+    },
+    {
+      "path": "personal/TEMPLATE.md",
+      "sha256": "291a58a7a6a7ca51ebd126e69068ebd1a3670aff36f087153b50b18e20c075f2"
+    },
+    {
+      "path": "project/TEMPLATE.md",
+      "sha256": "68dbd93a6fe5b2c4b801cb121ca5922ee57dcf6964c7158468b9653cae7e2500"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "f757e6d033e01124c51270ad34adc8bd078de93e059d6a0c2aa1d0fa1807569e"
+    },
+    {
+      "path": "runner/__init__.py",
+      "sha256": "01e16e54e0f895a4aa8bfc355448ebe1c256fe057a4e26e4df2aab841a3fa356"
+    },
+    {
+      "path": "runner/__main__.py",
+      "sha256": "810fdec9f889593ae2ffcfb91eebf7447bdfab168f82b7397570cfb8ef48727e"
+    },
+    {
+      "path": "runner/cascade.py",
+      "sha256": "fa1104122eaf7076fa0db322a7d65f9fb194fdbcdacd170de60f6224d49068c7"
+    },
+    {
+      "path": "runner/draft.py",
+      "sha256": "0aae85e9c05fb64f20a44e2dd01ef89bcd36cda3abca83165a38d2613b16191d"
+    },
+    {
+      "path": "runner/flags.py",
+      "sha256": "e2f69ab854fb288667ac9cdf2b20a7e0d14cbb3d4b276c5640ee4083c4c1c409"
+    },
+    {
+      "path": "runner/mechanical.py",
+      "sha256": "2dab23396f0070d509135c6e71993a1900b70bda6cc5350e567edacac0f70f55"
+    },
+    {
+      "path": "runner/organize.py",
+      "sha256": "bc8c3254a3345e1554748bd812f3256146c524fb1773245da681b3a975c8d05d"
+    },
+    {
+      "path": "runner/prompts.py",
+      "sha256": "efaccd8fd09b94eeea83da75c99c50fbbee56f1ce2096da42d15a24832f096ef"
+    },
+    {
+      "path": "runner/providers.py",
+      "sha256": "9e851942334a574eb687642aad61825ffc1c437ce4f9f9dffd6fcec1d1b6a351"
+    },
+    {
+      "path": "runner/report_contract.py",
+      "sha256": "458da049deda6ccae48f496b5cef2a4e04f25923baaae8c819a8841b6bc45ac4"
+    },
+    {
+      "path": "runner/revise.py",
+      "sha256": "782d71e5b5a76062cbff970b02e269dc56e3942b468fac38fc39e510a49f63b5"
+    },
+    {
+      "path": "runner/section_trial.py",
+      "sha256": "506accc17864764b79fd2551032de21c7d0c3063ff59cf936ab3e1f7acd1cc89"
+    },
+    {
+      "path": "runner/verification.py",
+      "sha256": "8b8f7278b5b7373cb740f39fe92a1c62d725b93c0c5ac361bb81c03ba26f935e"
+    },
+    {
+      "path": "tests/test_pilot_preparation.py",
+      "sha256": "43a006e927ed3dacd6015d0ba0158fbc3f10aa564d7ccf419492802f1ae503ed"
+    },
+    {
+      "path": "tests/test_portability.py",
+      "sha256": "ab2fe3d6ebf23e7772fa2b0bf20b10f20fb56fa9f13fc53f03d5d1608e5cf014"
+    },
+    {
+      "path": "tests/test_provider_limits.py",
+      "sha256": "500efc029e955b07afb0c9732ba4e8858df359f2a1d6f22138dfbddf70a5407f"
+    },
+    {
+      "path": "tests/test_reliability.py",
+      "sha256": "7af819b8b09f550cd8e85b5df83f96aa89f038c4abf1f276cb24cac956b08b67"
+    },
+    {
+      "path": "tests/test_run_directory.py",
+      "sha256": "cb06fd45d08ddbd84c0d4f4f8af72c71aa62aa600a99a9a261ee23897b7a9dd6"
+    },
+    {
+      "path": "tests/test_runner.py",
+      "sha256": "9ee1bed74990ce81df07a38ddd24abbbdb7cdc68fce6607dc34f8542b8da970f"
+    },
+    {
+      "path": "tests/test_section_trial.py",
+      "sha256": "20cab5ca61478437163eecbb8abb54e97ddc242b12e20ef820cbcbd16da9d108"
+    },
+    {
+      "path": "tools/offline_smoke.py",
+      "sha256": "9953e2f75f9a6802c3a6a780534b84df5e2bbcccefea0c1833f9afe9edd8ff3f"
+    },
+    {
+      "path": "tools/prepare_pilot.py",
+      "sha256": "69f36d29bd9f1a40103dedba1ff5aeaa2ba13b456fa0b86381c9b68d07ab6d0d"
+    },
+    {
+      "path": "tools/section_trial.py",
+      "sha256": "107a89c5b9dc8fbe7e2ba7feec708ee4fd8d9bd6e667a09d93abf6c66abab1c3"
+    }
+  ],
+  "self_hash": "Excluded to avoid recursive self-hashing."
+}

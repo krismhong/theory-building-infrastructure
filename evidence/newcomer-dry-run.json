@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "steps": [
+    {
+      "step": "prepare",
+      "exit_code": 0
+    },
+    {
+      "step": "offline-plumbing",
+      "exit_code": 0
+    }
+  ],
+  "site_packages_enabled": false,
+  "api_calls": 0,
+  "semantic_check_executed": false
+}
