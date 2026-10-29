@@ -4,6 +4,8 @@ This map connects the current **core-v2.1-2026-10-10** checks to relevant concep
 
 The [bibliography](../SOURCE-BIBLIOGRAPHY.md) identifies each work and its source-history category. The [source register](../evidence/SOURCE-REGISTER.json) records reading scope and notes for every entry. Page numbers refer to the specified version; a PDF page, manuscript page, and published page are not interchangeable.
 
+For a first review, choose one level and follow a row that interests you; the map is a reference, not a required reading sequence. Check numbers such as `3.1` identify a question within a level. Read the "Application boundary" column alongside the concept: it states what the connection does and does not support.
+
 ## Current checks
 
 <a id="level-1-current"></a>

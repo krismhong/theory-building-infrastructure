@@ -1,6 +1,10 @@
 # Evidence
 
-The files here separate deterministic checks from judgments about arguments.
+These records show whether the software follows its specified workflow. A passing test means it produced the expected result on a constructed example or a simulated model response. These checks do not establish how accurately it diagnoses problems in real manuscripts or whether its use improves a paper.
+
+For a first review, start with the [October 29 release check](submission-checks-2026-10-29.json) and its explanation in the [reviewer guide](../REVIEWER-GUIDE.md). To assess the rationale for the argument checks, use the [source-to-check map](../levels/SOURCES.md). The dated records below let readers distinguish the current software check from earlier work.
+
+In these records, **offline** means the tests make no model or API calls; a **smoke test** exercises the basic workflow. A **SHA-256 hash** is a file fingerprint used to check whether its contents have changed.
 
 - `submission-checks-2026-10-29.json` records the release-day complete offline suite and smoke workflow: 115 passed, one Windows privilege-related skip, no failures/errors and no API calls. The October 21 evidence below retains its original date and scope.
 

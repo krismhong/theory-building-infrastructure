@@ -4,6 +4,10 @@ Methodological references for the argument checks and optional writing guidance.
 
 Use the [source-to-check map](levels/SOURCES.md) for concepts and passage locators. The [source register](evidence/SOURCE-REGISTER.json) provides the individual reading notes and links. References inform the design; the checks and their implementation remain project decisions.
 
+For a first review, choose a level from the [five-level overview](levels/README.md), then read its row in the [source-to-check map](levels/SOURCES.md). The map explains both the source concept and the limits of applying it to this prototype. Follow its links here for the work's identity and what was read. Labels such as **R013** identify bibliography entries; a check number such as **3.1** means check 1 at the paragraph level (Level 3).
+
+The 122-work count describes the scope of the documentation. It is not a measure of checker accuracy or 122 independent tests of the prototype.
+
 ## Coverage
 
 This edition contains **122 verified work identities**, checked on 20 October 2026. Books, article versions, cross-journal reprints, and revised guidance are counted once per underlying work family. A verified identity is separate from a reading of the full work.
